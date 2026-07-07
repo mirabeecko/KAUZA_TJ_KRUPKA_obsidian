@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kauza TJ Krupka — Dashboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0b0b12;
+    --surface: #141428;
+    --surface2: #1c1c38;
+    --surface3: #262650;
+    --border: #2e2e50;
+    --text: #e2e2f0;
+    --text2: #8888a8;
+    --gold: #d4a843;
+    --gold-dim: #8b7a3a;
+    --gold-bg: rgba(212,168,67,.08);
+    --gold-border: rgba(212,168,67,.2);
+    --green: #22c55e;
+    --red: #ef4444;
+    --amber: #f59e0b;
+    --blue: #3b82f6;
+    --cyan: #06b6d4;
+    --pink: #ec4899;
+    --radius: 14px;
+    --radius-sm: 8px;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .bg-grid {
+    position: fixed; inset: 0; z-index: 0; opacity: .025;
+    background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  .bg-glow {
+    position: fixed; z-index: 0; pointer-events: none;
+  }
+  .bg-glow--1 { top: -15%; left: -5%; width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(212,168,67,.08) 0%, transparent 70%); }
+  .bg-glow--2 { bottom: -10%; right: -5%; width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(239,68,68,.06) 0%, transparent 70%); }
+  .bg-glow--3 { top: 50%; left: 60%; width: 350px; height: 350px;
+    background: radial-gradient(circle, rgba(59,130,246,.05) 0%, transparent 70%); }
+
+  .container { position: relative; z-index: 1; max-width: 1360px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── HEADER ── */
+  .header { padding: 48px 0 20px; }
+  .header__top { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+  .header__main { flex: 1; min-width: 280px; }
+  .header__logo { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .header__logo-icon {
+    width: 52px; height: 52px; border-radius: 14px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--gold), #b8860b);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; box-shadow: 0 8px 32px rgba(212,168,67,.25);
+  }
+  .header__title { font-size: 30px; font-weight: 800; letter-spacing: -1px; }
+  .header__title span { color: var(--gold); }
+  .header__sub { font-size: 14px; color: var(--text2); line-height: 1.6; }
+  .header__sub a { color: var(--gold); text-decoration: none; }
+  .header__sub a:hover { text-decoration: underline; }
+
+  .status-bar { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+  .status-pill {
+    display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px;
+    border-radius: 999px; font-size: 13px; font-weight: 600; border: 1px solid;
+  }
+  .status-pill--win { color: var(--green); background: rgba(34,197,94,.08); border-color: rgba(34,197,94,.2); }
+  .status-pill--warn { color: var(--amber); background: rgba(245,158,11,.08); border-color: rgba(245,158,11,.2); }
+  .status-pill--danger { color: var(--red); background: rgba(239,68,68,.08); border-color: rgba(239,68,68,.2); }
+  .status-pill--info { color: var(--blue); background: rgba(59,130,246,.08); border-color: rgba(59,130,246,.2); }
+  .status-pill__dot { width: 7px; height: 7px; border-radius: 50%; }
+  .status-pill__dot--win { background: var(--green); }
+  .status-pill__dot--warn { background: var(--amber); }
+  .status-pill__dot--danger { background: var(--red); }
+  .status-pill__dot--info { background: var(--blue); }
+
+  /* ── STATS ── */
+  .stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin-bottom: 36px; }
+  .stat-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px; text-align: center; transition: border-color .2s, transform .2s;
+  }
+  .stat-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+  .stat-card__icon { font-size: 26px; margin-bottom: 6px; }
+  .stat-card__value { font-size: 34px; font-weight: 800; letter-spacing: -1.5px; color: var(--gold); }
+  .stat-card__label { font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: .5px; font-weight: 600; }
+  .stat-card--total .stat-card__value { color: var(--text); }
+
+  /* ── SECTION ── */
+  .section { margin-bottom: 44px; }
+  .section__header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .section__icon { font-size: 20px; }
+  .section__title { font-size: 20px; font-weight: 700; letter-spacing: -.5px; }
+  .section__count { color: var(--text2); font-size: 13px; font-weight: 400; }
+
+  /* ── ENTITY GRID ── */
+  .entity-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
+  .entity-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 22px; transition: border-color .25s, box-shadow .25s; position: relative; overflow: hidden;
+  }
+  .entity-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--ec-color, var(--gold)), transparent);
+    opacity: .8;
+  }
+  .entity-card:hover { border-color: var(--ec-color, var(--gold)); box-shadow: 0 6px 32px rgba(0,0,0,.3); }
+  .entity-card__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .entity-card__title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .entity-card__pill {
+    font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
+    background: color-mix(in srgb, var(--ec-color, var(--gold)) 15%, transparent);
+    color: var(--ec-color, var(--gold));
+  }
+  .entity-card__list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+  .entity-card__link {
+    display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+    border-radius: var(--radius-sm); text-decoration: none; color: var(--text);
+    font-size: 13px; font-weight: 500; transition: background .15s;
+  }
+  .entity-card__link:hover { background: var(--surface2); }
+  .entity-card__id {
+    font-family: 'SF Mono', 'Cascadia Code', monospace; font-size: 11px;
+    color: var(--text2); min-width: 70px; flex-shrink: 0;
+    background: var(--surface2); padding: 2px 7px; border-radius: 4px; text-align: center;
+  }
+  .entity-card__meta { font-size: 11px; color: var(--text2); margin-left: auto; white-space: nowrap; }
+
+  /* ── STATUS INDICATORS INLINED ── */
+  .badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+  .badge--aktivni { background: rgba(34,197,94,.12); color: var(--green); }
+  .badge--podlozeno { background: rgba(34,197,94,.12); color: var(--green); }
+  .badge--otevreno { background: rgba(245,158,11,.12); color: var(--amber); }
+  .badge--k_overeni { background: rgba(59,130,246,.12); color: var(--blue); }
+  .badge--rozpracovano { background: rgba(139,92,246,.12); color: #8b5cf6; }
+
+  /* ── KEY EVENTS SECTION ── */
+  .keyevents { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 16px; }
+  .ke-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px 22px; border-left: 4px solid var(--gold); transition: border-color .2s;
+  }
+  .ke-card:hover { border-color: var(--gold); }
+  .ke-card__id { font-family: monospace; font-size: 11px; color: var(--gold-dim); margin-bottom: 4px; }
+  .ke-card__title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+  .ke-card__dates { font-size: 12px; color: var(--text2); }
+
+  /* ── QUICK NAV ── */
+  .quick-nav { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .quick-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px 20px; text-decoration: none; color: var(--text); transition: border-color .2s, box-shadow .2s;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .quick-card:hover { border-color: var(--gold); box-shadow: 0 4px 20px rgba(0,0,0,.25); }
+  .quick-card__icon { font-size: 24px; flex-shrink: 0; }
+  .quick-card__title { font-size: 14px; font-weight: 700; }
+  .quick-card__desc { font-size: 11px; color: var(--text2); }
+
+  /* ── LAWS ── */
+  .law-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .law-card {
+    background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 14px 16px; text-decoration: none; color: var(--text);
+    display: flex; align-items: center; gap: 12px; transition: border-color .15s, background .15s;
+    font-size: 13px; font-weight: 500;
+  }
+  .law-card:hover { border-color: var(--gold); background: var(--surface3); }
+  .law-card__num {
+    font-family: monospace; font-size: 13px; color: var(--gold); font-weight: 700;
+    min-width: 90px; flex-shrink: 0;
+  }
+
+  /* ── TAGS ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px;
+    border-radius: 999px; background: var(--surface2); border: 1px solid var(--border);
+    font-size: 12px; font-weight: 500; color: var(--text); text-decoration: none;
+    transition: border-color .2s, background .2s;
+  }
+  .tag:hover { border-color: var(--gold); background: var(--surface3); }
+  .tag__count { font-size: 10px; color: var(--text2); background: var(--surface); padding: 2px 7px; border-radius: 999px; }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center; padding: 36px 0; border-top: 1px solid var(--border);
+    margin-top: 28px; color: var(--text2); font-size: 12px;
+  }
+  .footer a { color: var(--gold); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .stats { grid-template-columns: repeat(3, 1fr); }
+    .entity-grid, .keyevents { grid-template-columns: 1fr; }
+    .header__title { font-size: 22px; }
+    .header__top { flex-direction: column; }
+    .status-bar { flex-direction: column; align-items: flex-start; }
+  }
+  @media (max-width: 480px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .law-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow bg-glow--1"></div>
+<div class="bg-glow bg-glow--2"></div>
+<div class="bg-glow bg-glow--3"></div>
+
+<div class="container">
+
+  <!-- ── HEADER ── -->
+  <header class="header">
+    <div class="header__top">
+      <div class="header__main">
+        <div class="header__logo">
+          <div class="header__logo-icon">⚖️</div>
+          <div>
+            <h1 class="header__title">Kauza <span>TJ Krupka</span></h1>
+            <p class="header__sub">Analytický znalostní systém &middot; <a href="https://tjk.manus.space" target="_blank">tjk.manus.space</a></p>
+            <p class="header__sub">Víceletý strukturovaný přehled sporu — od převzetí spolku přes obstrukci až po soudní a trestní řízení.</p>
+          </div>
+        </div>
+        <div class="status-bar">
+          <span class="status-pill status-pill--win"><span class="status-pill__dot status-pill__dot--win"></span>2× soud vyhrán</span>
+          <span class="status-pill status-pill--warn"><span class="status-pill__dot status-pill__dot--warn"></span>TO odloženo (ZN 69/2024-8)</span>
+          <span class="status-pill status-pill--danger"><span class="status-pill__dot status-pill__dot--danger"></span>Město Krupka — UR-314–316</span>
+          <span class="status-pill status-pill--info"><span class="status-pill__dot status-pill__dot--info"></span>Poslední aktualizace: 2026-07-07</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── STATS ── -->
+  <div class="stats">
+    <div class="stat-card stat-card--total">
+      <div class="stat-card__icon">📁</div>
+      <div class="stat-card__value">285</div>
+      <div class="stat-card__label">Celkem souborů</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__icon">👤</div>
+      <div class="stat-card__value">23</div>
+      <div class="stat-card__label">Osoby</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__icon">🏛️</div>
+      <div class="stat-card__value">9</div>
+      <div class="stat-card__label">Organizace</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__icon">📅</div>
+      <div class="stat-card__value">43</div>
+      <div class="stat-card__label">Události</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__icon">📎</div>
+      <div class="stat-card__value">109</div>
+      <div class="stat-card__label">Důkazy</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__icon">⚖️</div>
+      <div class="stat-card__value">11</div>
+      <div class="stat-card__label">Zákony</div>
+    </div>
+  </div>
+
+  <!-- ── RYCHLÁ NAVIGACE ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🧭</span>
+      <h2 class="section__title">Rychlá navigace</h2>
+    </div>
+    <div class="quick-nav">
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=%F0%9F%8F%A0%20ROZCESTN%C3%8DK" class="quick-card">
+        <span class="quick-card__icon">🏠</span>
+        <div><div class="quick-card__title">Rozcestník</div><div class="quick-card__desc">Hlavní vstupní strana vaultu</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=START_HERE" class="quick-card">
+        <span class="quick-card__icon">📖</span>
+        <div><div class="quick-card__title">START HERE</div><div class="quick-card__desc">Systémová dokumentace</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FZIVE_SHRNUTI_KAUZY" class="quick-card">
+        <span class="quick-card__icon">📊</span>
+        <div><div class="quick-card__title">Živé shrnutí</div><div class="quick-card__desc">Aktuální stav kauzy — AI generováno</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=14_Dashboard%2FHlavni_Dashboard" class="quick-card">
+        <span class="quick-card__icon">📋</span>
+        <div><div class="quick-card__title">Hlavní Dashboard</div><div class="quick-card__desc">Dataview přehledy</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=06_Casova_Osa%2FCAS-2026-001" class="quick-card">
+        <span class="quick-card__icon">🕐</span>
+        <div><div class="quick-card__title">Časová osa</div><div class="quick-card__desc">Chronologický přehled</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=14_Dashboard%2FUKOLY_A_STAV" class="quick-card">
+        <span class="quick-card__icon">✅</span>
+        <div><div class="quick-card__title">Úkoly a stav</div><div class="quick-card__desc">Aktuální tasky a progres</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=15_System%2FIdentifikatory" class="quick-card">
+        <span class="quick-card__icon">🔑</span>
+        <div><div class="quick-card__title">Registr ID</div><div class="quick-card__desc">Přehled identifikátorů</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FINDEX_Zakony" class="quick-card">
+        <span class="quick-card__icon">📜</span>
+        <div><div class="quick-card__title">Rejstřík zákonů</div><div class="quick-card__desc">11 relevantních zákonů</div></div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── OSOBY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">👤</span>
+      <h2 class="section__title">Osoby</h2>
+      <span class="section__count">23 osob &middot; 01_Osoby/</span>
+    </div>
+    <div class="entity-grid">
+      <div class="entity-card" style="--ec-color: var(--gold)">
+        <div class="entity-card__head">
+          <h3 class="entity-card__title">⚖️ Klíčové osoby</h3>
+        </div>
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-001" class="entity-card__link"><span class="entity-card__id">OSO-001</span>Miroslav Brožek<span class="entity-card__meta">Předseda TJ Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-002" class="entity-card__link"><span class="entity-card__id">OSO-002</span>Marek Vaniš<span class="entity-card__meta">Ex-člen, žalobce</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-003" class="entity-card__link"><span class="entity-card__id">OSO-003</span>Jaromír Pivoňka<span class="entity-card__meta">Ex-člen, žalobce</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-004" class="entity-card__link"><span class="entity-card__id">OSO-004</span>Gustav Vlach<span class="entity-card__meta">Ex-člen, navrhovatel</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-005" class="entity-card__link"><span class="entity-card__id">OSO-005</span>Martin Kulík<span class="entity-card__meta">Ex-předseda karate</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-010" class="entity-card__link"><span class="entity-card__id">OSO-010</span>JUDr. Jiří Rousek<span class="entity-card__meta">Advokát vyloučených</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-015" class="entity-card__link"><span class="entity-card__id">OSO-015</span>Mgr. Miroslav Kučera<span class="entity-card__meta">Advokát TJ Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-021" class="entity-card__link"><span class="entity-card__id">OSO-021</span>Mgr. Jan Zdražil<span class="entity-card__meta">Soudce KS Ústí n.L.</span></a></li>
+        </ul>
+      </div>
+      <div class="entity-card" style="--ec-color: var(--blue)">
+        <div class="entity-card__head">
+          <h3 class="entity-card__title">🏛️ Město a veřejné osoby</h3>
+        </div>
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-008" class="entity-card__link"><span class="entity-card__id">OSO-008</span>Jan Bokoč<span class="entity-card__meta">Člen RM Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-011" class="entity-card__link"><span class="entity-card__id">OSO-011</span>Rostislav Kadlec<span class="entity-card__meta">Člen RM Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-018" class="entity-card__link"><span class="entity-card__id">OSO-018</span>Jan Kuzma<span class="entity-card__meta">Starosta Krupky</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-009" class="entity-card__link"><span class="entity-card__id">OSO-009</span>Adolf Vítů<span class="entity-card__meta">Ředitel SPORT Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-019" class="entity-card__link"><span class="entity-card__id">OSO-019</span>Tomáš Syryčanský<span class="entity-card__meta">Zam. SPORT Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-020" class="entity-card__link"><span class="entity-card__id">OSO-020</span>Čížek<span class="entity-card__meta">Zam. SPORT Krupka</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-007" class="entity-card__link"><span class="entity-card__id">OSO-007</span>por. Miroslav Blažíček<span class="entity-card__meta">Policejní komisař</span></a></li>
+        </ul>
+      </div>
+      <div class="entity-card" style="--ec-color: var(--text2)">
+        <div class="entity-card__head">
+          <h3 class="entity-card__title">🏓 Ostatní osoby</h3>
+        </div>
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-006" class="entity-card__link"><span class="entity-card__id">OSO-006</span>Jitka Illéšová<span class="entity-card__meta">Účetní TJK</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-012" class="entity-card__link"><span class="entity-card__id">OSO-012</span>Kulík (karate)<span class="entity-card__meta">Předseda karate</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-013" class="entity-card__link"><span class="entity-card__id">OSO-013</span>Schneider<span class="entity-card__meta">FB vyjádření</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-014" class="entity-card__link"><span class="entity-card__id">OSO-014</span>Šnajdr<span class="entity-card__meta">Hráč ST TJK</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-016" class="entity-card__link"><span class="entity-card__id">OSO-016</span>Jana Hrabalová<span class="entity-card__meta">Delegátka SD</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-017" class="entity-card__link"><span class="entity-card__id">OSO-017</span>Václav Brož<span class="entity-card__meta">Člen VV oddílu ST</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-022" class="entity-card__link"><span class="entity-card__id">OSO-022</span>Dalibor Mach<span class="entity-card__meta">Člen VV ST, KST</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=01_Osoby%2FOSO-2026-023" class="entity-card__link"><span class="entity-card__id">OSO-023</span>Vladimír Zajíček<span class="entity-card__meta">Předseda KSSTÚK</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ORGANIZACE ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🏛️</span>
+      <h2 class="section__title">Organizace</h2>
+      <span class="section__count">9 organizací &middot; 02_Organizace/</span>
+    </div>
+    <div class="entity-grid">
+      <div class="entity-card" style="--ec-color: var(--gold)">
+        <div class="entity-card__head">
+          <h3 class="entity-card__title">🔶 Hlavní aktéři</h3>
+        </div>
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-001" class="entity-card__link"><span class="entity-card__id">ORG-001</span>TJ Krupka z.s.<span class="entity-card__meta">IČO:46070516 — core</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-002" class="entity-card__link"><span class="entity-card__id">ORG-002</span>Město Krupka<span class="entity-card__meta">IČO:00266418 — vysoká</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-003" class="entity-card__link"><span class="entity-card__id">ORG-003</span>SPORT Krupka s.r.o.<span class="entity-card__meta">100% Město — střední</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-007" class="entity-card__link"><span class="entity-card__id">ORG-007</span>KST Krupka z.s.<span class="entity-card__meta">Vytvořený vyloučenými</span></a></li>
+        </ul>
+      </div>
+      <div class="entity-card" style="--ec-color: var(--cyan)">
+        <div class="entity-card__head">
+          <h3 class="entity-card__title">🏓 Sportovní organizace</h3>
+        </div>
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-004" class="entity-card__link"><span class="entity-card__id">ORG-004</span>ČAST<span class="entity-card__meta">Česká asociace ST</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-005" class="entity-card__link"><span class="entity-card__id">ORG-005</span>ČUS<span class="entity-card__meta">Česká unie sportu</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-006" class="entity-card__link"><span class="entity-card__id">ORG-006</span>KSSTÚK<span class="entity-card__meta">Krajský svaz ST</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=02_Organizace%2FORG-2026-008" class="entity-card__link"><span class="entity-card__id">ORG-008</span>Lesy ČR, s.p.<span class="entity-card__meta">Státní podnik</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── KLÍČOVÉ UDÁLOSTI ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🔑</span>
+      <h2 class="section__title">Klíčové události</h2>
+      <span class="section__count">6 klíčových událostí &middot; 11_Klicove_Udalosti/</span>
+    </div>
+    <div class="keyevents">
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-001" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-001</div>
+        <div class="ke-card__title">ČAST — ignorance a porušování pravidel</div>
+        <div class="ke-card__dates">2024-01-15 → 2025-12-24</div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-002" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-002</div>
+        <div class="ke-card__title">Vyloučení členů a zánik členství</div>
+        <div class="ke-card__dates">2023-11-28 → 2026-05-03</div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-003" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-003</div>
+        <div class="ke-card__title">Trestní oznámení a policejní řízení</div>
+        <div class="ke-card__dates">2022-07-28 → 2024-05-31</div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-004" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-004</div>
+        <div class="ke-card__title">Spor o předsednictví a obchodní rejstřík</div>
+        <div class="ke-card__dates">2021-08-24 → 2026-02-11</div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-005" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-005</div>
+        <div class="ke-card__title">Znemožnění přístupu do pinčesárny</div>
+        <div class="ke-card__dates">2023-12-06 → 2024-01-19</div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=11_Klicove_Udalosti%2FKUDA-2026-006" class="ke-card" style="text-decoration:none;color:inherit;display:block;">
+        <div class="ke-card__id">KUDA-2026-006</div>
+        <div class="ke-card__title">Shromáždění delegátů TJ Krupka</div>
+        <div class="ke-card__dates">2021-08-24 → 2026-04-26</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── TVRZENÍ ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">💬</span>
+      <h2 class="section__title">Tvrzení</h2>
+      <span class="section__count">5 tvrzení &middot; 07_Tvrzeni/</span>
+    </div>
+    <div class="entity-grid">
+      <div class="entity-card" style="--ec-color: var(--gold)">
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=07_Tvrzeni%2FTVR-2026-001" class="entity-card__link"><span class="entity-card__id">TVR-001</span>Vaniš/Pivoňka/Vlach nejsou členy<span class="badge badge--otevreno">otevřeno</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=07_Tvrzeni%2FTVR-2026-002" class="entity-card__link"><span class="entity-card__id">TVR-002</span>Vaniš tvrdí, že je stále předseda<span class="badge badge--podlozeno">podloženo</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=07_Tvrzeni%2FTVR-2026-003" class="entity-card__link"><span class="entity-card__id">TVR-003</span>Vlach přiznal 26.674 Kč v pokladně<span class="badge badge--podlozeno">podloženo</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=07_Tvrzeni%2FTVR-2026-004" class="entity-card__link"><span class="entity-card__id">TVR-004</span>Příspěvky 2.400 Kč — dobrovolné platby<span class="badge badge--k_overeni">k ověření</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=07_Tvrzeni%2FTVR-2026-005" class="entity-card__link"><span class="entity-card__id">TVR-005</span>Pivoňka nazval platby "příspěvky" v SMS<span class="badge badge--podlozeno">podloženo</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── DOKUMENTY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">📄</span>
+      <h2 class="section__title">Dokumenty</h2>
+      <span class="section__count">9 dokumentů &middot; 05_Dokumenty/</span>
+    </div>
+    <div class="entity-grid">
+      <div class="entity-card" style="--ec-color: var(--gold)">
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-001" class="entity-card__link"><span class="entity-card__id">DOK-001</span>Žaloba na náhradu škody<span class="entity-card__meta">2026-05-12</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-002" class="entity-card__link"><span class="entity-card__id">DOK-002</span>Důkazní přehled funkcí<span class="entity-card__meta">2026-05-12</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-008" class="entity-card__link"><span class="entity-card__id">DOK-008</span>KS — nicotné vyloučení Vaniš+Pivoňka<span class="entity-card__meta">2025-01-03</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-009" class="entity-card__link"><span class="entity-card__id">DOK-009</span>VS Praha zamítl Vanišovo odvolání<span class="entity-card__meta">2025-06-26</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-007" class="entity-card__link"><span class="entity-card__id">DOK-007</span>Usnesení Zdražil — odmítnutí Vlacha<span class="entity-card__meta">2025-09-26</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-003" class="entity-card__link"><span class="entity-card__id">DOK-003</span>Analýza EPR (AI)<span class="entity-card__meta">2026-04-20</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-004" class="entity-card__link"><span class="entity-card__id">DOK-004</span>Zápis Rady 10/2023<span class="entity-card__meta">2023-03-27</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-005" class="entity-card__link"><span class="entity-card__id">DOK-005</span>Zastupitelstvo 4/24 — prodej p.č.<span class="entity-card__meta">2024-09-11</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=05_Dokumenty%2FDOK-2026-006" class="entity-card__link"><span class="entity-card__id">DOK-006</span>Whistleblowing dokument<span class="entity-card__meta">—</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── DŮKAZY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">📎</span>
+      <h2 class="section__title">Důkazy</h2>
+      <span class="section__count">109 důkazů (2013–2026) &middot; 04_Dukazy/</span>
+    </div>
+    <div class="quick-nav">
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=14_Dashboard%2FDukazy_Prehled" class="quick-card">
+        <span class="quick-card__icon">📋</span>
+        <div><div class="quick-card__title">Přehled důkazů</div><div class="quick-card__desc">109 položek s metadaty a odkazy na GDrive</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=04_Dukazy%2FDUK-2026-008" class="quick-card" style="--ec-color: var(--red); border-left: 3px solid var(--red);">
+        <span class="quick-card__icon">🚨</span>
+        <div><div class="quick-card__title">DUK-2026-008</div><div class="quick-card__desc">⭐ LIDIČKY.pdf — klíčový důkaz</div></div>
+      </a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=04_Dukazy%2FDUK-2026-015" class="quick-card" style="--ec-color: var(--amber); border-left: 3px solid var(--amber);">
+        <span class="quick-card__icon">⚠️</span>
+        <div><div class="quick-card__title">DUK-2026-015</div><div class="quick-card__desc">Aktuální stav OR TJ Krupka</div></div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── ANALÝZY A VÝSTUPY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🔍</span>
+      <h2 class="section__title">Analýzy a výstupy</h2>
+      <span class="section__count">10 analýz/výstupů &middot; 08_Analyzy/ + 09_Vystupy/</span>
+    </div>
+    <div class="entity-grid">
+      <div class="entity-card" style="--ec-color: var(--blue)">
+        <ul class="entity-card__list">
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=08_Analyzy%2FANL-2026-003" class="entity-card__link"><span class="entity-card__id">ANL-003</span>ČAST fronta — analýza a další kroky<span class="entity-card__meta">2026-06-21</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=08_Analyzy%2FANL-2026-004" class="entity-card__link"><span class="entity-card__id">ANL-004</span>Přehled jednání s Lesy ČR<span class="entity-card__meta">2026-07-06</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=08_Analyzy%2FANL-2026-005" class="entity-card__link"><span class="entity-card__id">ANL-005</span>Přehled jednání s Městem 🔴<span class="entity-card__meta">2026-07-06</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=08_Analyzy%2FANL-2026-006" class="entity-card__link"><span class="entity-card__id">ANL-006</span>Přehled bývalých členů<span class="entity-card__meta">2026-07-06</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FANL-2026-001" class="entity-card__link"><span class="entity-card__id">ANL-001</span>Audit dokumentů a návrh importu<span class="entity-card__meta">2026-06-18</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FANL-2026-002" class="entity-card__link"><span class="entity-card__id">ANL-002</span>Import dokumentů kritické priority<span class="entity-card__meta">2026-06-18</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FVYS-2026-001" class="entity-card__link"><span class="entity-card__id">VYS-001</span>Přehled kauzy TJ Krupka (web)<span class="entity-card__meta">2026-07-06</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FVYS-2026-002" class="entity-card__link"><span class="entity-card__id">VYS-002</span>Infografika vazeb<span class="entity-card__meta">2026-07-06</span></a></li>
+          <li><a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=09_Vystupy%2FVYS-2026-003" class="entity-card__link"><span class="entity-card__id">VYS-003</span>Sporné položky ke schválení<span class="entity-card__meta">2026-07-06</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ZÁKONY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">📜</span>
+      <h2 class="section__title">Relevantní zákony</h2>
+      <span class="section__count">11 zákonů &middot; 16_Zakony/</span>
+    </div>
+    <div class="law-grid">
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-001" class="law-card"><span class="law-card__num">40/2009 Sb.</span>Trestní zákoník</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-002" class="law-card"><span class="law-card__num">141/1961 Sb.</span>Trestní řád</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-003" class="law-card"><span class="law-card__num">89/2012 Sb.</span>Občanský zákoník</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-004" class="law-card"><span class="law-card__num">304/2013 Sb.</span>Zákon o veřejných rejstřících</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-005" class="law-card"><span class="law-card__num">99/1963 Sb.</span>Občanský soudní řád</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-006" class="law-card"><span class="law-card__num">128/2000 Sb.</span>Zákon o obcích</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-007" class="law-card"><span class="law-card__num">45/2013 Sb.</span>Zákon o obětech TČ</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-008" class="law-card"><span class="law-card__num">418/2011 Sb.</span>Trestní odpovědnost PO</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-009" class="law-card"><span class="law-card__num">549/1991 Sb.</span>Zákon o soudních poplatcích</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-010" class="law-card"><span class="law-card__num">134/2016 Sb.</span>Zákon o zadávání VZ</a>
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=16_Zakony%2FZAK-2026-011" class="law-card"><span class="law-card__num">273/2008 Sb.</span>Zákon o Policii ČR</a>
+    </div>
+  </div>
+
+  <!-- ── SHROMÁŽDĚNÍ DELEGÁTŮ ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🗳️</span>
+      <h2 class="section__title">Shromáždění delegátů</h2>
+      <span class="section__count">9 událostí &middot; 17_Schromazdeni_Delegatu/</span>
+    </div>
+    <div class="quick-nav">
+      <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=17_Schromazdeni_Delegatu%2FINDEX_Schromazdeni_Delegatu" class="quick-card">
+        <span class="quick-card__icon">📋</span>
+        <div><div class="quick-card__title">INDEX SD</div><div class="quick-card__desc">Přehled všech shromáždění delegátů</div></div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── TAGY ── -->
+  <div class="section">
+    <div class="section__header">
+      <span class="section__icon">🏷️</span>
+      <h2 class="section__title">Tagy</h2>
+      <span class="section__count">Nejčastější tagy ve vaultu</span>
+    </div>
+    <div class="tag-cloud">
+      <span class="tag">#mestokrupka <span class="tag__count">23+</span></span>
+      <span class="tag">#lesyČR <span class="tag__count">8+</span></span>
+      <span class="tag">#jednotlivě <span class="tag__count">20+</span></span>
+      <span class="tag">#system <span class="tag__count">8</span></span>
+      <span class="tag">#dashboard <span class="tag__count">10</span></span>
+      <span class="tag">#zakon <span class="tag__count">12</span></span>
+      <span class="tag">#prehled <span class="tag__count">8</span></span>
+      <span class="tag">#rozhodnuti <span class="tag__count">5+</span></span>
+      <span class="tag">#spor <span class="tag__count">4+</span></span>
+      <span class="tag">#soud <span class="tag__count">4+</span></span>
+      <span class="tag">#clenstvi <span class="tag__count">3+</span></span>
+      <span class="tag">#dokument <span class="tag__count">9</span></span>
+      <span class="tag">#zive_shrnuti <span class="tag__count">1</span></span>
+      <span class="tag">#vystup <span class="tag__count">4</span></span>
+      <span class="tag">#analyza <span class="tag__count">4</span></span>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    Kauza TJ Krupka — Analytický znalostní systém &copy; 2026 &middot;
+    <a href="https://tjk.manus.space" target="_blank">tjk.manus.space</a> &middot;
+    <a href="obsidian://open?vault=KAUZA_TJ_KRUPKA_obsidian&file=%F0%9F%8F%A0%20ROZCESTN%C3%8DK">Otevřít v Obsidianu</a>
+  </footer>
+
+</div>
+
+</body>
+</html>
