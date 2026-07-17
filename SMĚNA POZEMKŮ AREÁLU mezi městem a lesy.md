@@ -1,3 +1,6 @@
+---
+source: https://mesto-krupka.usneseni.cz/verejne/d14e51ac-cea6-11f0-93b7-00505683238f/usneseni/
+---
 #jednotlivě #lesyČR #mestokrupka
 
 # Směna pozemků areálu mezi městem a Lesy ČR
