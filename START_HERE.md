@@ -17,7 +17,7 @@ tagy:
 ---
 
 > [!tip] 🏠 HLAVNÍ ROZCESTNÍK
-> Pro rychlou navigaci kauzou použijte **[[🏠 ROZCESTNÍK]]** — vizuální rozcestník s přehledem aktuálního stavu, všemi sekcemi a mapou vazeb.
+> Pro rychlou navigaci kauzou použijte **[[⤴️ 🏠 ROZCESTNÍK]]** — vizuální rozcestník s přehledem aktuálního stavu, všemi sekcemi a mapou vazeb.
 
 ---
 
@@ -25,7 +25,7 @@ tagy:
 
 ### 1. Otevřete Rozcestník nebo Dashboard
 
-→ [[🏠 ROZCESTNÍK|🏠 Hlavní rozcestník]] ← **DOPORUČENÝ VSTUPNÍ BOD**
+→ [[⤴️ 🏠 ROZCESTNÍK|🏠 Hlavní rozcestník]] ← **DOPORUČENÝ VSTUPNÍ BOD**
 
 → [[14_Dashboard/Hlavni_Dashboard|📊 Dashboard]] (technický přehled s Dataview dotazy)
 
