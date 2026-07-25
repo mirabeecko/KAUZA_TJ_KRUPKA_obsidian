@@ -5,7 +5,7 @@ cele_jmeno: Gustav Vlach
 jmeno: Gustav
 prijmeni: Vlach
 narozeni: 1961-09-22
-umrti: 
+umrti:
 pohlavi: muz
 narodnost: česká
 role:
@@ -15,14 +15,12 @@ role:
   - Navrhovatel (sp. zn. 61 Cm 106/2025)
 organizace:
   - "[[ORG-2026-001_TJ_Krupka]]"
-kontakt_email: 
-kontakt_telefon: 
-kontakt_adresa: 
-kontakt_datova_schranka: 
-popis: >
-  Předseda lyžařského oddílu TJ Krupka. Zánik členství 14.12.2023 pro
-  neplacení příspěvků. Při policejním výslechu přiznal 26.674 Kč v pokladně
-  nepředaných spolku. Podal návrh na jmenování procesního opatrovníka TJ.
+kontakt_email:
+kontakt_telefon:
+kontakt_adresa:
+kontakt_datova_schranka:
+popis: |
+  Předseda lyžařského oddílu TJ Krupka. Zánik členství 14.12.2023 pro neplacení příspěvků. Při policejním výslechu přiznal 26.674 Kč v pokladně nepředaných spolku. Podal návrh na jmenování procesního opatrovníka TJ.
 stav: zanik_clenstvi_14_12_2023
 relevance: vysoka
 duvernost: interni
@@ -34,6 +32,7 @@ tagy:
   - TJK
   - lyze
   - zaloba_68Cm85
+kryci_jmeno:
 ---
 
 # Gustav Vlach
