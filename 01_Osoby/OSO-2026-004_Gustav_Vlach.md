@@ -32,7 +32,7 @@ tagy:
   - TJK
   - lyze
   - zaloba_68Cm85
-kryci_jmeno:
+kryci_jmeno: Husta Vach
 ---
 
 # Gustav Vlach

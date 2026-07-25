@@ -31,6 +31,7 @@ tagy:
   - vylouceny_clen
   - TJK
   - zaloba_68Cm87
+kryci_jmeno:
 ---
 
 # Marek Vaniš
