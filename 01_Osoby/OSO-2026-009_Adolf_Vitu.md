@@ -28,7 +28,7 @@ tagy:
   - osoba
   - TJK
   - mesto_krupka
-kryci_jmeno:
+kryci_jmeno: Rudolf Němec
 ---
 
 # Adolf Vítů
