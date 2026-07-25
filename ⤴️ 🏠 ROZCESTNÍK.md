@@ -54,7 +54,7 @@ pinned: true
 > [!tip] 📋 PŘEHLED KAUZY
 > Kompletní vstupní přehled celé kauzy pro nové čtenáře a web.
 >
-> **Rychlé odkazy:** [[VYS-2026-001_Prehled_kauzy_pro_web]], [[ZIVE_SHRNUTI_KAUZY]], [[START_HERE]]
+> **Rychlé odkazy:** [[ZDROJ_PRAVDY|⚖️ ZDROJ PRAVDY (kanonický)]], [[VYS-2026-001_Prehled_kauzy_pro_web]], [[START_HERE]]
 >
 > 📁 [[09_Vystupy/|Výstupy →]]
 
