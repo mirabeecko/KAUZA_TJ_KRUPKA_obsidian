@@ -4,7 +4,7 @@ typ: osoba
 cele_jmeno: Adolf Vítů
 jmeno: Adolf
 prijmeni: Vítů
-narozeni: 
+narozeni:
 pohlavi: muz
 narodnost: česká
 role:
@@ -13,15 +13,12 @@ role:
 organizace:
   - "[[ORG-2026-002_Mesto_Krupka]]"
   - "[[ORG-2026-003_SPORT_Krupka]]"
-kontakt_email: 
-kontakt_telefon: 
-kontakt_adresa: 
-kontakt_datova_schranka: 
-popis: >
-  Adolf Vítů je ŘEDITEL SPORT Krupka s.r.o. (100% vlastněné Městem Krupka) A ZÁROVEŇ
-  člen Rady města Krupka. Jako ředitel SPORT Krupka byl nadřízeným Syryčanského
-  a Čížka, kteří provedli výměnu zámků 19.1.2024. Klíčová osobní odpovědnost
-  za jednání SPORT Krupka vůči TJK.
+kontakt_email:
+kontakt_telefon:
+kontakt_adresa:
+kontakt_datova_schranka:
+popis: |
+  Adolf Vítů je ŘEDITEL SPORT Krupka s.r.o. (100% vlastněné Městem Krupka) A ZÁROVEŇ člen Rady města Krupka. Jako ředitel SPORT Krupka byl nadřízeným Syryčanského a Čížka, kteří provedli výměnu zámků 19.1.2024. Klíčová osobní odpovědnost za jednání SPORT Krupka vůči TJK.
 stav: neznamy
 relevance: stredni
 duvernost: interni
@@ -31,6 +28,7 @@ tagy:
   - osoba
   - TJK
   - mesto_krupka
+kryci_jmeno:
 ---
 
 # Adolf Vítů

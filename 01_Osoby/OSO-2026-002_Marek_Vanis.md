@@ -31,7 +31,7 @@ tagy:
   - vylouceny_clen
   - TJK
   - zaloba_68Cm87
-kryci_jmeno:
+kryci_jmeno: Varek Amiš
 ---
 
 # Marek Vaniš
