@@ -4,7 +4,7 @@ typ: osoba
 cele_jmeno: Jan Bokoč
 jmeno: Jan
 prijmeni: Bokoč
-narozeni: 
+narozeni:
 pohlavi: muz
 narodnost: česká
 role:
@@ -12,14 +12,12 @@ role:
   - Ověřovatel schůze Rady 27.3.2023
 organizace:
   - "[[ORG-2026-002_Mesto_Krupka]]"
-kontakt_email: 
-kontakt_telefon: 
-kontakt_adresa: 
-kontakt_datova_schranka: 
-popis: >
-  Jan Bokoč je člen Rady města Krupka — NIKOLI osoba z TJ Krupka.
-  Na schůzi Rady 10/2023 (27.3.2023) byl ověřovatelem zápisu.
-  Fotografie a OR záznamy v příloze TJK — kontext k ověření.
+kontakt_email:
+kontakt_telefon:
+kontakt_adresa:
+kontakt_datova_schranka:
+popis: |
+  Jan Bokoč je člen Rady města Krupka — NIKOLI osoba z TJ Krupka. Na schůzi Rady 10/2023 (27.3.2023) byl ověřovatelem zápisu. Fotografie a OR záznamy v příloze TJK — kontext k ověření.
 stav: neznamy
 relevance: stredni
 duvernost: interni
@@ -29,6 +27,7 @@ tagy:
   - osoba
   - TJK
   - OR
+kryci_jmeno: Žán Kolotoč
 ---
 
 # Jan Bokoč
