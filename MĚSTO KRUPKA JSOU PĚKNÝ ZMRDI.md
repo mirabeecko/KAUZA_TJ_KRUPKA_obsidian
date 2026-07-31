@@ -2,5 +2,7 @@
 
 
 ```dataview
+table
+from #jednotlivě 
 
 ```
