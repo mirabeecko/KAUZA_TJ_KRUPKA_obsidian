@@ -1,5 +1,6 @@
 #mesto_dotaz
-#zakon
+#zakon_106
+
 
 
 Žádám o poskytnutí dokumentů vztahujících se k plnění usnesení Rady města Krupka č. UR-899-25/25 ze dne 20.10.2025, zejména:
