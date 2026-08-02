@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"b7156fa07e812045","x":-500,"y":-340,"width":2040,"height":600,"color":"4","type":"group","label":"Skupina bez názvu"},
+		{"id":"c9b8dc2247d645a4","type":"file","file":"READY/LCR001 - Důkaz o doručení výzvy k plnění dlužníkovi (§ 1958 OZ).pdf","x":-480,"y":-320,"width":400,"height":560},
+		{"id":"656089599d47c0f2","type":"file","file":"READY/LCR005 - Veškerá komunikace s Městem Krupka (2021–2026) a právní titul dle GDPR _ OZ.pdf","x":1120,"y":-320,"width":400,"height":560},
+		{"id":"f5486a4aa30ccee3","type":"file","file":"READY/LCR004 - PACHTOVNÍ SMLOUVA S MĚSTEM KRUPKA A PRÁVNÍ TITUL PRO PŘEDÁVÁNÍ ÚDAJŮ O SPOLKU.pdf","x":720,"y":-320,"width":400,"height":560},
+		{"id":"ca2f34c327fb08a3","type":"file","file":"READY/LCR003 - Plán péče a údržba lesních pozemků v areálu (2018–2026).pdf","x":320,"y":-320,"width":400,"height":560},
+		{"id":"79f373f2c000e65d","type":"file","file":"READY/LCR002 - Detailní kalkulace a metodika pohledávky 517 128 Kč.pdf","x":-80,"y":-320,"width":400,"height":560}
+	],
+	"edges":[]
+}
