@@ -10,14 +10,14 @@
 		{"id":"006bf5126fabd3bd","type":"file","file":"READY/MK001 - Nabídka postoupení pohledávky od Lesů ČR (UR-316-12_26).pdf","x":-707,"y":680,"width":400,"height":520},
 		{"id":"a720977d6ab95e9e","type":"file","file":"READY/MK002 - Veškerá korespondence Města s Lesy ČR o pohledávce (2021–2026).pdf","x":-307,"y":680,"width":400,"height":462},
 		{"id":"c4eaa1d8d6dbcf32","type":"file","file":"READY/MK003 - Kompletní zápis a podklady RM 12_2026 (13. 4. 2026).pdf","x":93,"y":680,"width":400,"height":462},
-		{"id":"f857a41df2075740","type":"file","file":"READY/MK004 - Zápis z RM 28_2025 (UR-962 až UR-965).pdf","x":493,"y":680,"width":400,"height":462},
-		{"id":"ccb8ec322c0089b8","type":"file","file":"READY/MK005 - Oznámení střetu zájmů radního Jana Bokoče u usnesení UR-316.pdf","x":893,"y":680,"width":400,"height":462},
+		{"id":"f857a41df2075740","type":"file","file":"READY/MK004 - Zápis z RM 28_2025 (UR-962 až UR-965).pdf","x":493,"y":440,"width":647,"height":960},
 		{"id":"a4b9e8bd7115e863","type":"file","file":"READY/MK008 - Zápisy z RM 6_2023 a 7_2023 (Schůzka k areálu a zpráva o dluhu 150k Kč).pdf","x":93,"y":1240,"width":400,"height":462},
 		{"id":"fa48c2e4e47ef79f","type":"file","file":"READY/MK009 - Zápisy RM 25_2025 (UR-899).pdf","x":493,"y":1240,"width":400,"height":462},
 		{"id":"c3f52ed2d51a50fe","type":"file","file":"READY/MK006 - Záznamy Městské policie Krupka z incidentu v SKI areálu (9. 6. 2026).pdf","x":-707,"y":1240,"width":400,"height":462},
 		{"id":"2203c7dcea524da5","type":"file","file":"READY/MK007 - Veškerá korespondence Města_SPORT KRUPKA s T-Mobile (2024–2026).pdf","x":-307,"y":1240,"width":400,"height":462},
 		{"id":"47a312206fbd321c","type":"file","file":"READY/MK014 - Právní vztah a pověření p. Kočiše k jednání v SKI areálu dne 9. 6. 2026.pdf","x":493,"y":1782,"width":400,"height":460},
-		{"id":"7feeff160b6d26ab","type":"file","file":"READY/MK015 - Strategický podklad pro rozhodnutí Rady o SKI areálu.pdf","x":914,"y":1782,"width":358,"height":460}
+		{"id":"7feeff160b6d26ab","type":"file","file":"READY/MK015 - Strategický podklad pro rozhodnutí Rady o SKI areálu.pdf","x":914,"y":1782,"width":358,"height":460},
+		{"id":"ccb8ec322c0089b8","type":"file","file":"READY/MK005 - Oznámení střetu zájmů radního Jana Bokoče u usnesení UR-316.pdf","x":1140,"y":440,"width":640,"height":960}
 	],
 	"edges":[]
 }
