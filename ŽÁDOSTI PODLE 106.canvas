@@ -16,9 +16,9 @@
 		{"id":"2203c7dcea524da5","type":"file","file":"READY/MK007 - Veškerá korespondence Města_SPORT KRUPKA s T-Mobile (2024–2026).pdf","x":-307,"y":1112,"width":400,"height":400},
 		{"id":"a4b9e8bd7115e863","type":"file","file":"READY/MK008 - Zápisy z RM 6_2023 a 7_2023 (Schůzka k areálu a zpráva o dluhu 150k Kč).pdf","x":93,"y":1112,"width":400,"height":400},
 		{"id":"fa48c2e4e47ef79f","type":"file","file":"READY/MK009 - Zápisy RM 25_2025 (UR-899).pdf","x":493,"y":1112,"width":400,"height":400},
-		{"id":"15f60ee841e8c9a7","x":-1007,"y":188,"width":300,"height":52,"color":"2","type":"text","text":"# Město |Krupka"},
 		{"id":"47a312206fbd321c","x":493,"y":1560,"width":400,"height":400,"type":"file","file":"READY/MK014 - Právní vztah a pověření p. Kočiše k jednání v SKI areálu dne 9. 6. 2026.pdf"},
-		{"id":"7feeff160b6d26ab","x":914,"y":1560,"width":358,"height":400,"type":"file","file":"READY/MK015 - Strategický podklad pro rozhodnutí Rady o SKI areálu.pdf"}
+		{"id":"7feeff160b6d26ab","x":914,"y":1560,"width":358,"height":400,"type":"file","file":"READY/MK015 - Strategický podklad pro rozhodnutí Rady o SKI areálu.pdf"},
+		{"id":"15f60ee841e8c9a7","x":-1120,"y":854,"width":300,"height":52,"color":"2","type":"text","text":"# Město |Krupka"}
 	],
 	"edges":[]
 }
