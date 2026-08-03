@@ -1,1 +1,1 @@
-Pane Štrédle, chtěl jsem Vám jenom říct, že mám podezření, že si naivně myslíte, že to nějak vymyslíte. Nejen, že V
+Pane Štrédle, chtěl jsem Vám jenom říct, že mám podezření, že si naivně myslíte, že to nějak vymyslíte. Nejen, že Vám to každý pokus zdraží, ale za tu drzo
