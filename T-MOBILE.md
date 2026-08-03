@@ -1,1 +1,1 @@
-Pane Štrédle, chtěl jsem Vám jenom říct, že mám podezření, že si naivně myslíte, že to nějak vymyslíte. Nejen, že Vám to každý pokus zdraží, ale za tu drzost 
+Pane Štrédle, chtěl jsem Vám jenom říct, že mám podezření, že si naivně myslíte, že to nějak vymyslíte. Nejen, že Vám to každý pokus zdraží, ale za tu drzost o oprsklost si dám jako životní cíl, aby 
