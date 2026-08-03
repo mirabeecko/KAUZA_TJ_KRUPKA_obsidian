@@ -6,6 +6,8 @@ tagy:
   - dashboard
   - system
 ---
+[[⚠️ ŽÁDOSTI PODLE 106.canvas]]
+
 
 # Analytický systém — Hlavní Dashboard
 
