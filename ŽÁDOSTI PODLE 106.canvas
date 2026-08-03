@@ -2,11 +2,8 @@
 	"nodes":[
 		{"id":"07dd76a7cf871580","type":"group","x":-1200,"y":340,"width":4320,"height":1940,"color":"5","label":"Město Krupka"},
 		{"id":"b7156fa07e812045","type":"group","x":-1003,"y":1040,"width":2120,"height":740,"color":"4","label":"LESY ČR"},
-		{"id":"f857a41df2075740","type":"file","file":"READY/MK004 - Zápis z RM 28_2025 (UR-962 až UR-965).pdf","x":1197,"y":440,"width":647,"height":960},
-		{"id":"c4eaa1d8d6dbcf32","type":"file","file":"READY/MK003 - Kompletní zápis a podklady RM 12_2026 (13. 4. 2026).pdf","x":520,"y":440,"width":633,"height":702},
 		{"id":"656089599d47c0f2","type":"file","file":"READY/LCR005 - Veškerá komunikace s Městem Krupka (2021–2026) a právní titul dle GDPR _ OZ.pdf","x":637,"y":1120,"width":400,"height":560},
 		{"id":"f5486a4aa30ccee3","type":"file","file":"READY/LCR004 - PACHTOVNÍ SMLOUVA S MĚSTEM KRUPKA A PRÁVNÍ TITUL PRO PŘEDÁVÁNÍ ÚDAJŮ O SPOLKU.pdf","x":237,"y":1120,"width":400,"height":560},
-		{"id":"a720977d6ab95e9e","type":"file","file":"READY/MK002 - Veškerá korespondence Města s Lesy ČR o pohledávce (2021–2026).pdf","x":-240,"y":440,"width":700,"height":702},
 		{"id":"47a312206fbd321c","type":"file","file":"READY/MK014 - Právní vztah a pověření p. Kočiše k jednání v SKI areálu dne 9. 6. 2026.pdf","x":493,"y":1782,"width":400,"height":460},
 		{"id":"7feeff160b6d26ab","type":"file","file":"READY/MK015 - Strategický podklad pro rozhodnutí Rady o SKI areálu.pdf","x":914,"y":1782,"width":358,"height":460},
 		{"id":"fa48c2e4e47ef79f","type":"file","file":"READY/MK009 - Zápisy RM 25_2025 (UR-899).pdf","x":60,"y":1780,"width":400,"height":462},
@@ -17,7 +14,10 @@
 		{"id":"c9b8dc2247d645a4","type":"file","file":"READY/LCR001 - Důkaz o doručení výzvy k plnění dlužníkovi (§ 1958 OZ).pdf","x":-963,"y":1120,"width":400,"height":560},
 		{"id":"79f373f2c000e65d","type":"file","file":"READY/LCR002 - Detailní kalkulace a metodika pohledávky 517 128 Kč.pdf","x":-563,"y":1120,"width":400,"height":560},
 		{"id":"c3f52ed2d51a50fe","type":"file","file":"READY/MK006 - Záznamy Městské policie Krupka z incidentu v SKI areálu (9. 6. 2026).pdf","x":-1140,"y":1780,"width":400,"height":462},
-		{"id":"ccb8ec322c0089b8","type":"file","file":"READY/MK005 - Oznámení střetu zájmů radního Jana Bokoče u usnesení UR-316.pdf","x":1844,"y":440,"width":640,"height":960}
+		{"id":"a720977d6ab95e9e","type":"file","file":"READY/MK002 - Veškerá korespondence Města s Lesy ČR o pohledávce (2021–2026).pdf","x":-180,"y":380,"width":640,"height":840},
+		{"id":"c4eaa1d8d6dbcf32","type":"file","file":"READY/MK003 - Kompletní zápis a podklady RM 12_2026 (13. 4. 2026).pdf","x":460,"y":380,"width":633,"height":840},
+		{"id":"f857a41df2075740","type":"file","file":"READY/MK004 - Zápis z RM 28_2025 (UR-962 až UR-965).pdf","x":1093,"y":380,"width":647,"height":840},
+		{"id":"ccb8ec322c0089b8","type":"file","file":"READY/MK005 - Oznámení střetu zájmů radního Jana Bokoče u usnesení UR-316.pdf","x":1740,"y":380,"width":640,"height":860}
 	],
 	"edges":[]
 }
