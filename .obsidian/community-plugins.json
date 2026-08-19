@@ -10,7 +10,9 @@
   "editor-width-slider",
   "obsidian-git",
   "notebook-mindmap-to-canvas",
-  "infranodus-graph-view",
   "3d-semantic-graph",
-  "aurora-dashboard"
+  "aurora-dashboard",
+  "new-3d-graph",
+  "brain-atlas",
+  "agentage-galaxy"
 ]
