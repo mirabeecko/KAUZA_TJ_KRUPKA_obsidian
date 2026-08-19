@@ -49,15 +49,15 @@
   "nodeCap": 1500,
   "edgeCap": 4000,
   "idleAutoRotate": true,
-  "showLobeLabels": true,
+  "showLobeLabels": false,
   "showLegendChip": true,
   "enabledLobes": {
-    "frontal": true,
-    "parietal": true,
+    "frontal": false,
+    "parietal": false,
     "temporal": true,
-    "occipital": true,
-    "cerebellum": true,
-    "stem": true
+    "occipital": false,
+    "cerebellum": false,
+    "stem": false
   },
   "clickAction": "current",
   "hubThresholdPercent": 4,
