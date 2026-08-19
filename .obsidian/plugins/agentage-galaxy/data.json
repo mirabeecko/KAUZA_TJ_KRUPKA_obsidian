@@ -1,0 +1,36 @@
+{
+  "filters": {
+    "showTags": false,
+    "showAttachments": false,
+    "hideUnresolved": false,
+    "showOrphans": true,
+    "search": ""
+  },
+  "forces": {
+    "centerStrength": 0.1,
+    "repelStrength": 10,
+    "linkStrength": 0.5,
+    "linkDistance": 30
+  },
+  "nodeSize": 1.8,
+  "linkThickness": 0.6,
+  "showArrows": false,
+  "showLabels": true,
+  "autoRotate": true,
+  "rotateSpeed": 1.2,
+  "restoreCamera": true,
+  "viewState": {
+    "camera": {
+      "position": {
+        "x": -15.187608193132633,
+        "y": -252.57226503720432,
+        "z": -27.177778714181958
+      },
+      "target": {
+        "x": -15.187368452115193,
+        "y": 1.746948695300887,
+        "z": -27.17786717773226
+      }
+    }
+  }
+}
