@@ -1,9 +1,9 @@
 {
   "mapViewState": {
     "filterQuery": "",
-    "showTags": false,
+    "showTags": true,
     "mapLayout": "dynamicLinks",
-    "renderScale": 1,
+    "renderScale": 1.1,
     "frameRateMode": "auto",
     "egoEnabled": true,
     "egoDepth": 1,
