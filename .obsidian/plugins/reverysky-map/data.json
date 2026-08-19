@@ -2,10 +2,10 @@
   "mapViewState": {
     "filterQuery": "",
     "showTags": false,
-    "mapLayout": "dates",
+    "mapLayout": "dynamicLinks",
     "renderScale": 1,
     "frameRateMode": "auto",
-    "egoEnabled": false,
+    "egoEnabled": true,
     "egoDepth": 1,
     "egoNeighborLinksEnabled": false
   }
