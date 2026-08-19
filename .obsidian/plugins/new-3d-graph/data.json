@@ -6,12 +6,12 @@
     {
       "type": "path",
       "value": "01_Osoby",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "path",
       "value": "14_Dashboard",
-      "enabled": false
+      "enabled": true
     }
   ],
   "showAttachments": false,
