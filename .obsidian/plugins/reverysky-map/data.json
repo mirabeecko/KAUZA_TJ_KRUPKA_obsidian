@@ -1,0 +1,12 @@
+{
+  "mapViewState": {
+    "filterQuery": "",
+    "showTags": false,
+    "mapLayout": "dates",
+    "renderScale": 1,
+    "frameRateMode": "auto",
+    "egoEnabled": false,
+    "egoDepth": 1,
+    "egoNeighborLinksEnabled": false
+  }
+}
