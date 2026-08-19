@@ -49,7 +49,7 @@
   "nodeCap": 1500,
   "edgeCap": 4000,
   "idleAutoRotate": true,
-  "showLobeLabels": false,
+  "showLobeLabels": true,
   "showLegendChip": true,
   "enabledLobes": {
     "frontal": false,
