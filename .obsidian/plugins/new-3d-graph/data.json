@@ -5,8 +5,13 @@
   "filters": [
     {
       "type": "path",
-      "value": "",
+      "value": "01_Osoby",
       "enabled": true
+    },
+    {
+      "type": "path",
+      "value": "14_Dashboard",
+      "enabled": false
     }
   ],
   "showAttachments": false,
