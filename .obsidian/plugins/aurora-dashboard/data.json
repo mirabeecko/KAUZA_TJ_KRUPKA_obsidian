@@ -30,7 +30,15 @@
     ],
     "quickPluginsInitialized": true
   },
-  "activity": {},
+  "activity": {
+    "2026-08-25": {
+      "addedWords": 0,
+      "edits": 4,
+      "paths": [
+        "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md"
+      ]
+    }
+  },
   "linkSnapshots": {
     "2026-08-19": 1173,
     "2026-08-23": 1173,
@@ -342,7 +350,8 @@
     "01_Osoby/OSO-2026-005_Martin_Kulik.md": 237,
     "01_Osoby/OSO-2026-004_Gustav_Vlach.md": 320,
     "01_Osoby/OSO-2026-003_Jaromir_Pivonka.md": 235,
-    "01_Osoby/OSO-2026-001_Miroslav_Brozek.md": 349
+    "01_Osoby/OSO-2026-001_Miroslav_Brozek.md": 349,
+    "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md": 0
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
