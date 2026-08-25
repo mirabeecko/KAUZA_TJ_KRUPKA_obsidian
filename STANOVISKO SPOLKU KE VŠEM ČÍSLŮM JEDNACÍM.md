@@ -14,8 +14,13 @@ Nejdřív zásadní právní věc: řízení o neplatnosti rozhodnutí orgánu s
 Nejvyšší soud letos výslovně řekl, že aktivní legitimace podle § 258 musí existovat nejen při podání návrhu, ale **především v okamžiku rozhodování soudu**. Zanikne-li mezitím členství, musí bývalý člen prokázat samostatný „zájem hodný právní ochrany“.
 
 
+---
 
+### NS 27 Cdo 1051/2021: členství nevznikne jen tím, že se někdo za člena považuje
 
+Nejvyšší soud výslovně formuloval, že nezbytnou podmínkou vzniku členství je, aby uchazeč projevil vůli směřující ke vzniku členství **způsobem předvídaným zákonem nebo stanovami**. V dané věci stanovy vyžadovaly přihlášku a její schválení; soudy proto nepovažovaly osoby, u kterých tento postup nebyl zjištěn, za členy.
+
+---
 
 # SOUD SE ZABÝVAL NEPODSTATNÝM ROZHODNUTÍM
 
