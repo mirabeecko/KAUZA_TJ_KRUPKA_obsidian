@@ -32,10 +32,11 @@
   },
   "activity": {
     "2026-08-25": {
-      "addedWords": 104,
-      "edits": 21,
+      "addedWords": 139,
+      "edits": 22,
       "paths": [
-        "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md"
+        "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md",
+        "Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md"
       ]
     }
   },
@@ -351,7 +352,8 @@
     "01_Osoby/OSO-2026-004_Gustav_Vlach.md": 320,
     "01_Osoby/OSO-2026-003_Jaromir_Pivonka.md": 235,
     "01_Osoby/OSO-2026-001_Miroslav_Brozek.md": 349,
-    "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md": 100
+    "STANOVISKO SPOLKU KE VŠEM ČÍSLŮM JEDNACÍM.md": 100,
+    "Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md": 35
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
