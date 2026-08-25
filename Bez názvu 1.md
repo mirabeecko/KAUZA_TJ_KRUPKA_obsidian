@@ -1,0 +1,6 @@
+
+
+HÁDÁM SE S PRÁVNÍKEM .
+
+
+TVRDÍ MI, ŽE SOUD PŘI URČOVÁNÍ 
