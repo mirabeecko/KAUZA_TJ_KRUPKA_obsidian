@@ -29,5 +29,4 @@ Nejvyšší soud výslovně formuloval, že nezbytnou podmínkou vzniku členstv
 # Úplně nejdůležitější: kdo tvrdí, že je členem a z toho odvozuje právo napadat rozhodnutí, musí členství PROKÁZAT
 
 Nejvyšší soud v rozsudku **27 Cdo 3381/2023 ze dne 16. 10. 2024** říká velmi jasně:
-
-> navrhovatel je zásadně povinen tvrdit a **prokázat rozhodné skutečnosti, na nichž svou aktivní legitimaci zakládá**.
+navrhovatel je zásadně povinen tvrdit a **prokázat rozhodné skutečnosti, na nichž svou aktivní legitimaci zakládá**.
