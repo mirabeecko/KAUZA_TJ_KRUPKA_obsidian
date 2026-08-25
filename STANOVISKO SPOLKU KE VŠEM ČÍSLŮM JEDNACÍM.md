@@ -39,3 +39,6 @@ navrhovatel je zásadně povinen tvrdit a **prokázat rozhodné skutečnosti, na
 
 
 ---
+
+
+![[Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md#^clippedframe=VVKh8oGI|100%]]
