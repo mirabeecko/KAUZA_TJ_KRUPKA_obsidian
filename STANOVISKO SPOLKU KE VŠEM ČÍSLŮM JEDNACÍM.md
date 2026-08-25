@@ -16,3 +16,6 @@ Nejvyšší soud letos výslovně řekl, že aktivní legitimace podle § 258 mu
 
 
 
+
+# SOUD SE ZABÝVAL NEPODSTATNÝM ROZHODNUTÍM
+
