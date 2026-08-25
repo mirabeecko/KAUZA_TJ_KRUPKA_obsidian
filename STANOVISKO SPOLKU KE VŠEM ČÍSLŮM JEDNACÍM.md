@@ -30,3 +30,12 @@ Nejvyšší soud výslovně formuloval, že nezbytnou podmínkou vzniku členstv
 
 Nejvyšší soud v rozsudku **27 Cdo 3381/2023 ze dne 16. 10. 2024** říká velmi jasně:
 navrhovatel je zásadně povinen tvrdit a **prokázat rozhodné skutečnosti, na nichž svou aktivní legitimaci zakládá**.
+
+
+---
+
+
+„Pro účely výkonu práv a povinností spolku musela být členská základna v rozhodném okamžiku objektivně zjistitelná. Nelze přičítat k tíži spolku skutečnost, že osoba odpovědná podle stanov za vedení členské evidence přes opakované výzvy tuto evidenci nepředala, a následně připustit, aby tatáž absence evidence byla použita jako důvod neplatnosti rozhodnutí spolku.“
+
+
+---
