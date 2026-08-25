@@ -10,6 +10,9 @@ Nejdřív zásadní právní věc: řízení o neplatnosti rozhodnutí orgánu s
 
 ---
 
+# aktivní legitimace
+Nejvyšší soud letos výslovně řekl, že aktivní legitimace podle § 258 musí existovat nejen při podání návrhu, ale **především v okamžiku rozhodování soudu**. Zanikne-li mezitím členství, musí bývalý člen prokázat samostatný „zájem hodný právní ochrany“.
+
 
 
 
