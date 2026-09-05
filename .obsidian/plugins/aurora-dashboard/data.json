@@ -73,10 +73,11 @@
       ]
     },
     "2026-09-05": {
-      "addedWords": 0,
-      "edits": 2,
+      "addedWords": 20,
+      "edits": 7,
       "paths": [
-        "Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md"
+        "Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md",
+        "Bez názvu.md"
       ]
     }
   },
@@ -399,7 +400,8 @@
     "Excalidraw/Drawing 2026-08-25 17.04.01.excalidraw.md": 1939,
     "Bez názvu 1.md": 10,
     "Excalidraw/Drawing 2026-08-26 13.58.07.excalidraw.md": 96,
-    "Excalidraw/MATOUŠ !.md": 86
+    "Excalidraw/MATOUŠ !.md": 86,
+    "Bez názvu.md": 20
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
