@@ -86,6 +86,13 @@
       "paths": [
         "Excalidraw/NOVÉ STANOVY 2026.md"
       ]
+    },
+    "2026-09-07": {
+      "addedWords": 39,
+      "edits": 2,
+      "paths": [
+        "Excalidraw/Drawing 2026-09-07 08.22.54.excalidraw.md"
+      ]
     }
   },
   "linkSnapshots": {
@@ -411,7 +418,8 @@
     "Excalidraw/Drawing 2026-08-26 13.58.07.excalidraw.md": 96,
     "Excalidraw/MATOUŠ !.md": 86,
     "TimeLine.md": 12,
-    "Excalidraw/NOVÉ STANOVY 2026.md": 68
+    "Excalidraw/NOVÉ STANOVY 2026.md": 68,
+    "Excalidraw/Drawing 2026-09-07 08.22.54.excalidraw.md": 39
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
