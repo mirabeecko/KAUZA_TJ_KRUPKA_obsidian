@@ -109,6 +109,13 @@
       "paths": [
         "Excalidraw/MATOUŠ !.md"
       ]
+    },
+    "2026-09-12": {
+      "addedWords": 4157,
+      "edits": 1,
+      "paths": [
+        "09_Vystupy/VYS-2026-004_Chronologie_pred_9-2-2024.md"
+      ]
     }
   },
   "linkSnapshots": {
@@ -436,7 +443,8 @@
     "Excalidraw/MATOUŠ !.md": 335,
     "TimeLine.md": 12,
     "Excalidraw/NOVÉ STANOVY 2026.md": 149,
-    "Excalidraw/Drawing 2026-09-07 08.22.54.excalidraw.md": 39
+    "Excalidraw/Drawing 2026-09-07 08.22.54.excalidraw.md": 39,
+    "09_Vystupy/VYS-2026-004_Chronologie_pred_9-2-2024.md": 4157
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
