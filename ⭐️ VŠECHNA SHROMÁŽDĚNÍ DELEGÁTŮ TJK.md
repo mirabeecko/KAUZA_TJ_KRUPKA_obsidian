@@ -24,6 +24,8 @@
 
 
 > [!danger]   **SD 29.6.2025**  
+SD schvaluje možnost zatížení nemovitosti ve vlastnictví spolku, zapsané jako parc. číslo st. 248, LV 1511 pro k.ú. Krupka, obec Krupka, na adrese
+Husitská 191/8, 417 41 Krupka,
 
 
 > [!info]  **SD 26.4.2026**  
