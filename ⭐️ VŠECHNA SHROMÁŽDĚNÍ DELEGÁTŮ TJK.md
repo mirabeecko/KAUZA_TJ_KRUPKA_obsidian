@@ -1,32 +1,29 @@
 
 
-
+# 2021
 
 
 > [!important]    **SD 24.8.2021**
 > Zvolení **MB** předsedou spolku TJK na období 5 let.
 
 
+---
+# 2024
 
 > [!NOTE]  **SD 25.1.2024**
 > Zánik oddílů , nové stanovy *2024*
 
 
+---
+# 2025
 
 > [!NOTE]  **SD 25.1.2025**
 > Nové stanovy *2025* 
-
----> SIGN
-
 
 
 
 > [!IMPORTANT] **SD 16.4.2025**
 > Návrh "*Obnova provozu lyžařského areálu na Komáří vížce*".
-
----> SIGN
-
-
 
 
 
@@ -35,17 +32,13 @@ SD schvaluje možnost zatížení nemovitosti ve vlastnictví spolku na adrese H
 zapsané jako parc. číslo st. 248, LV 1511 pro k.ú. Krupka, obec Krupka
 
 
+---
 
-
+# 2026
 
 
 > [!info]  **SD 26.4.2026**  
 > T-Mobile vysílač
-
----> SIGN
-
-
-SD 24.8.2026
 
 
 
