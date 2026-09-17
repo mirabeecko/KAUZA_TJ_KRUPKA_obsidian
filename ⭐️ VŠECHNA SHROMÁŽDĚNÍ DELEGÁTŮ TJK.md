@@ -11,17 +11,18 @@ SD 25.1.2024
 
 
 
-SD 25.1.2025
+> [!NOTE]
+> SD 25.1.2025
 
 
-SD 16.4.2025
+> [!IMPORTANT] **SD 16.4.2025**
 
 
 > [!danger]   **SD 29.6.2025**  
 
 
-
-> [!info]  **26.4.2026** T-Mobile vysílač
+> [!info]  **SD 26.4.2026**  
+> T-Mobile vysílač
 
 
 SD 24.8.2026
