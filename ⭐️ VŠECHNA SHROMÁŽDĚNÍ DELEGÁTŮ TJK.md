@@ -29,17 +29,20 @@
 
 
 
-
-
 > [!danger]   **SD 29.6.2025**  
-> - SD schvaluje prodej nemovitosti na adrese Husitská 191/8, Krupka společnosti **ET Capital s.r.o.**,
-
-
+> - SD schvaluje prodej nemovitosti na adrese Husitská 191/8, Krupka  NEJVYŠŠÍ NABÍDCE , tzn. společnosti **ET Capital s.r.o.**,
 
 
 ---
 
 # 2026
+
+
+
+
+> [!danger]  **SD 25.1.2026**
+> - Nové stanovy *2026 
+
 
 
 > [!info]  **SD 26.4.2026**  
