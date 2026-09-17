@@ -23,7 +23,10 @@
 
 
 > [!IMPORTANT] **SD 16.4.2025**
-> Návrh "*Obnova provozu lyžařského areálu na Komáří vížce*".
+> - Návrh "*Obnova provozu lyžařského areálu na Komáří vížce*".
+> - Schválení zatížení nemovitosti
+
+
 
 
 
