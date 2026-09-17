@@ -9,12 +9,15 @@
 
 
 > [!NOTE]  **SD 25.1.2024**
-> Zánik oddílů , nové stanovy 2024
+> Zánik oddílů , nové stanovy *2024*
 
 
 
-> [!NOTE]
-> SD 25.1.2025
+
+
+
+> [!NOTE]  **SD 25.1.2025**
+> Nové stanovy *2025* 
 
 
 > [!IMPORTANT] **SD 16.4.2025**
