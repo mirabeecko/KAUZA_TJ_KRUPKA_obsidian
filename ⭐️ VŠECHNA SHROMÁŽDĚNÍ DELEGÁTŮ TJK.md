@@ -3,11 +3,13 @@
 
 
 
-SD 24.8.2021
+> [!NOTE]    **SD 24.8.2021**
+> Zvolení MB předsedou spolku TJK
 
 
 
-SD 25.1.2024
+> [!NOTE]  **SD 25.1.2024**
+> Zánik oddílů , nové stanovy 2024
 
 
 
