@@ -32,8 +32,8 @@
 
 
 > [!danger]   **SD 29.6.2025**  
-> - SD schvaluje možnost zatížení nemovitosti ve vlastnictví spolku na adrese Husitská 191/8, Krupka ,
-zapsané jako parc. číslo st. 248, LV 1511 pro k.ú. Krupka, obec Krupka
+> - SD schvaluje prodej nemovitosti na adrese Husitská 191/8, Krupka společnosti **ET Capital s.r.o.**,
+
 
 
 
