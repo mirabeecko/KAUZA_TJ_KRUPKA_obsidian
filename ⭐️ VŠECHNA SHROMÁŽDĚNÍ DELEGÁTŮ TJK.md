@@ -3,16 +3,13 @@
 
 
 
-> [!NOTE]    **SD 24.8.2021**
-> Zvolení MB předsedou spolku TJK
+> [!important]    **SD 24.8.2021**
+> Zvolení **MB** předsedou spolku TJK na období 5 let.
 
 
 
 > [!NOTE]  **SD 25.1.2024**
 > Zánik oddílů , nové stanovy *2024*
-
-
-
 
 
 
@@ -53,4 +50,4 @@ SD 24.8.2026
 
 
 > [!NOTE]    **SD 24.8.2026**
-> Znovuzvolení **MB** předsedou spolku TJK
+> Znovuzvolení **MB** předsedou spolku TJK na další pětileté období
