@@ -24,7 +24,8 @@
 
 > [!IMPORTANT] **SD 16.4.2025**
 > - Návrh "*Obnova provozu lyžařského areálu na Komáří vížce*".
-> - Schválení zatížení nemovitosti
+> - SD schvaluje možnost zatížení nemovitosti ve vlastnictví spolku na adrese Husitská 191/8, Krupka ,  
+> zapsané jako parc. číslo st. 248, LV 1511 pro k.ú. Krupka, obec Krupka
 
 
 
