@@ -129,10 +129,11 @@
       ]
     },
     "2026-09-24": {
-      "addedWords": 30,
-      "edits": 16,
+      "addedWords": 63,
+      "edits": 17,
       "paths": [
-        "⭐️ VŠECHNY ČLENSKÉ SCHŮZE ODDÍLU STOLNÍ TENIS  TJK.md"
+        "⭐️ VŠECHNY ČLENSKÉ SCHŮZE ODDÍLU STOLNÍ TENIS  TJK.md",
+        "14_Dashboard/UKOLY_A_STAV.md"
       ]
     }
   },
@@ -197,7 +198,7 @@
     "14_Dashboard/Tvrzeni_Prehled.md": 20,
     "14_Dashboard/Udalosti_Prehled.md": 16,
     "14_Dashboard/Osoby_Prehled.md": 18,
-    "14_Dashboard/UKOLY_A_STAV.md": 961,
+    "14_Dashboard/UKOLY_A_STAV.md": 994,
     "14_Dashboard/Organizace_Prehled.md": 15,
     "14_Dashboard/Hlavni_Dashboard.md": 136,
     "14_Dashboard/Dokumenty_Prehled.md": 17,

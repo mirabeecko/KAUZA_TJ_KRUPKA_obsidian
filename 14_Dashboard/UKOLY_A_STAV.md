@@ -89,7 +89,7 @@ tagy:
 ### Chybějící osoby
 
 - [ ] Mgr. Daniel Neumann (AK Švajcrová Neumann) — podepsal předžalobní výzvy
-- [ ] Pavel Štrobl — delegát SD 25.1.2024
+- [ ] Pavel Štrobl — delegát SD 25.1.2024 — **členství zaniklo 19. 2. 2025** (žádost o ukončení členství datovou schránkou, důvod: dlouhodobý pobyt v zahraničí; datová zpráva č. 1482248602). Náhradní volba delegáta na členské schůzi oddílu 5. 4. 2025 → zvolen **Radek Beyer**.
 - [ ] VŠÚ Leflerová — soudní úřednice KS, vyhovela Vlachovi 6.8.2025
 - [ ] Jiří Kulík — skutečný předseda karate? (ověřit)
 - [ ] Mgr. Miloslava Bačová — členka Rady Krupka
