@@ -10,8 +10,10 @@
 
 --- 
 
-Shromáždění delegátů rozhodlo , že 
+
 
 ---
 
-Podmínky dalšího užívání byly sděleny již 29.4.2026
+Podmínky dalšího užívání byly sděleny již 29.4.2026. 
+
+Shromáždění delegátů rozhodlo , že pokud nebu
