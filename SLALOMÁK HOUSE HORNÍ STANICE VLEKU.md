@@ -220,8 +220,10 @@ Je proto potřeba zjistit zejména:
 - na jakém právním základě ji TJ začala užívat,
     
 - zda existují rozhodnutí města, smlouvy, zápisy, souhlasy nebo jiné dokumenty,
-    
-    
+
+
+
+
 
 
 - TJ investovala do objektu vlastní prostředky,
