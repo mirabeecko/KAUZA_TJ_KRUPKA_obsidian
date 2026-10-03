@@ -4,7 +4,7 @@
 
 ## Shrnutí situace – horní stanice vleku v Horní Krupce / areál Komáří vížka
 
-Jde o objekt - budovu, horní stanice vleku v areálu Komáří vížka v k. ú. Horní Krupka. Podle dostupných údajů je předmětná nemovitost vedena ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván a spravován v souvislosti s provozem lyžařského areálu Tělovýchovnou jednotou Krupka z.s.
+Jde o objekt - budovu, která slouží jako horní stanice vleku TLV 400 v areálu Komáří vížka v k. ú. Horní Krupka. Podle dostupných údajů je předmětná nemovitost vedena ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván a spravován v souvislosti s provozem lyžařského areálu Tělovýchovnou jednotou Krupka z.s.
 
 ### 1. Historie areálu a faktická držba
 
