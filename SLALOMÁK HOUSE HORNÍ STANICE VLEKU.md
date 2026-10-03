@@ -221,14 +221,16 @@ Je proto potřeba zjistit zejména:
     
 - zda existují rozhodnutí města, smlouvy, zápisy, souhlasy nebo jiné dokumenty,
     
-- zda město o užívání objektu TJ vědělo a po jak dlouhou dobu tento stav akceptovalo,
     
+    
+
+existují dokumenty , kde spolek komunikuje s městem a žádá ěsto o užívání objektu TJ vědělo a po jak dlouhou dobu tento stav akceptovalo,    
 - zda 
 
 
 TJ investovala do objektu vlastní prostředky,
-zda byly investice prováděny se souhlasem města nebo alespoň s jeho vědomím.
-    
+
+
 
 Pokud město po desítky let vědělo, že TJ objekt užívá jako součást svého areálu, a tento stav nijak nezpochybňovalo, může jít o významnou okolnost pro právní posouzení.
 
