@@ -182,13 +182,15 @@ TJ Krupka po dlouhou dobu zajišťovala zejména:
 - revize a technické kontroly,
     
 - organizaci sportovního provozu areálu.
-    
+
+
+V ROCE 2025 BYLA PROVEDENA DEFEKTOSKOPIE LYŽAŘSKÉHO VLEKU. 
 
 Horní stanice tak fakticky tvoří součást provozního celku, který TJ dlouhodobě užívá a spravuje.
 
 ### 2. Faktická držba
 
-Objekt horní stanice je fakticky pod kontrolou TJ Krupka.
+Objekt horní stanice je fakticky pod kontrolou TJ Krupka a .
 
 TJ má k objektu přístup, objekt zabezpečuje, užívá jej při provozu vleku a vykonává nad ním faktickou kontrolu. Tento stav není krátkodobý, ale navazuje na dlouholetý provoz areálu.
 
