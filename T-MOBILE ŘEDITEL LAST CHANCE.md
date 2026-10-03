@@ -6,6 +6,8 @@
 3. ředitel poprvé
 	- pod záminkou dalšího jednání
 4. ředitel podruhé
-
+	- pod záminkou potřeby smlouvy pro uhrazení faktury 
 
 --- 
+
+Shromáždění d
