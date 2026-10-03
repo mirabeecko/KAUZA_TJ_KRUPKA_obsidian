@@ -223,9 +223,6 @@ Je proto potřeba zjistit zejména:
 
 
 
-,,,,,,,,,,,,,,,,    q     rčřasw<
-
-
 - TJ investovala do objektu vlastní prostředky,
 
 - Existují dokumenty , kde spolek komunikuje s městem a žádá ho například o finanční podporu, jelikož byly špatné sněhové podmínky apod. **To dokazuje**, že Město Krupka o užívání objektu spolkem vědělo a finančně spolek podporovalo.
