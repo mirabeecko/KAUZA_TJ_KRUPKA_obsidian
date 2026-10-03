@@ -22,7 +22,7 @@ Shromáždění delegátů rozhodlo , že pokud nebude zaslaná faktura splatná
 Zklamal jste mě 
 
 
-Pane Štréble, 
+Pane Štréble, chápu, že Vám vadí v jaké jste pozici. Máte z ní jednu cestu ven. 
 
 
 Žádné schůzky už nebudou a budeme to řešit 
