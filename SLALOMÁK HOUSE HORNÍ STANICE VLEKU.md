@@ -12,13 +12,13 @@ TJ Krupka provozuje lyžařský areál na Komáří vížce desítky let. Histor
 
 Podle dochovaných podkladů vznikala infrastruktura postupně:
 
-- první vleky přibližně v letech 1973–1975,
-- elektrická přípojka přibližně v roce 1974,
-- další provozní stavby a zázemí v průběhu 70. let,
-- horní stanice vleku VL300 přibližně v roce 1983.
+- *první vleky přibližně v letech 1973–1975,*
+- *elektrická přípojka přibližně v roce 1974,*
+- *další provozní stavby a zázemí v průběhu 70. let,*
+- *horní stanice vleku VL300 přibližně v roce 1983.*
     
 
-TJ Krupka následně areál po desetiletí provozovala, opravovala, udržovala a investovala do něj. Zajišťovala revize vleků, technickou údržbu, veřejný provoz, závody, lyžařské kurzy a další sportovní činnost.
+TJ Krupka následně areál po desetiletí provozovala, opravovala, udržovala a investovala do něj. Zajišťovala revize vleků, technickou údržbu, veřejný provoz a další sportovní činnost.
 
 Existují rovněž podklady, ve kterých samotné město historicky označuje TJ Krupka jako správce/provozovatele areálu a odkazuje na její dlouhodobou činnost v lokalitě.
 
