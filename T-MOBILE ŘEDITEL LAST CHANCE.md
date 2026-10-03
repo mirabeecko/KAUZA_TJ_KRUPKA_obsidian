@@ -19,7 +19,10 @@ Podmínky dalšího užívání byly sděleny již 29.4.2026.
 Shromáždění delegátů rozhodlo , že pokud nebude zaslaná faktura splatná v termínu, 
 
 
-Zklamal jste mě, protože 
+Zklamal jste mě 
 
 
-Žádné schůzky už nebudou a budeme to řešit druhým zolsi
+Pane Štréble, 
+
+
+Žádné schůzky už nebudou a budeme to řešit 
