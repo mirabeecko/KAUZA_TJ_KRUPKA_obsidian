@@ -10,4 +10,4 @@
 
 --- 
 
-Shromáždění d
+Shromáždění delegátů rozhodlo , že podmínky dalšího užívání byly sděleny již 
