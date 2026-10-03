@@ -45,7 +45,7 @@ TJ zajišťuje nebo zajišťovala zejména:
 - revize elektro 
 
 
-Nejde tedy o situaci, kdy by TJ do objektu nově nebo svévolně vstoupila. Naopak - historicky Faktické užívání navazuje na dlouhodobý historický provoz celého areálu.
+Nejde tedy o situaci, kdy by TJ do objektu nově nebo svévolně vstoupila. Naopak - historicky do budovy neměl nikdo přístup bez vědomí TJ. Faktické užívání navazuje na dlouhodobý historický provoz celého areálu.
 
 ### 3. Technologie T-Mobile a O2
 
