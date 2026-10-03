@@ -157,7 +157,7 @@ Neřeším pouze, kdo je dnes zapsán v katastru jako vlastník horní stanice. 
 
 ## Shrnutí situace – horní stanice vleku v Horní Krupce
 
-Jde o objekt horní stanice vleku VL400 v areálu Komáří vížka v Horní Krupce. Nemovitost je podle dostupných údajů ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván, spravován a ovládán Tělovýchovnou jednotou Krupka z.s. v souvislosti s provozem lyžařského areálu.
+Jde o objekt horní stanice vleku VL400 v areálu Komáří vížka v Horní Krupce. Nemovitost je podle katastru ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván, spravován a ovládán Tělovýchovnou jednotou Krupka z.s. v souvislosti s provozem lyžařského areálu.
 
 ### 1. Dlouhodobé užívání objektu
 
