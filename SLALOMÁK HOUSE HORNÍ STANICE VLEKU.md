@@ -4,7 +4,7 @@
 
 ## Shrnutí situace – horní stanice vleku v Horní Krupce / areál Komáří vížka
 
-Jde o objekt horní stanice vleku v areálu Komáří vížka v k. ú. Horní Krupka. Podle dostupných údajů je předmětná nemovitost vedena ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván a spravován v souvislosti s provozem lyžařského areálu Tělovýchovnou jednotou Krupka z.s.
+Jde o objekt - budovu, horní stanice vleku v areálu Komáří vížka v k. ú. Horní Krupka. Podle dostupných údajů je předmětná nemovitost vedena ve vlastnictví města Krupka. Současně je však objekt dlouhodobě fakticky užíván a spravován v souvislosti s provozem lyžařského areálu Tělovýchovnou jednotou Krupka z.s.
 
 ### 1. Historie areálu a faktická držba
 
@@ -13,11 +13,8 @@ TJ Krupka provozuje lyžařský areál na Komáří vížce desítky let. Histor
 Podle dochovaných podkladů vznikala infrastruktura postupně:
 
 - první vleky přibližně v letech 1973–1975,
-    
 - elektrická přípojka přibližně v roce 1974,
-    
 - další provozní stavby a zázemí v průběhu 70. let,
-    
 - horní stanice vleku VL300 přibližně v roce 1983.
     
 
