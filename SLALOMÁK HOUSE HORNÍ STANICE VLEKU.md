@@ -223,7 +223,7 @@ Je proto potřeba zjistit zejména:
 
 
 
-
+,,,,,,,,,,,,,,,,    q     rčřasw
 
 
 - TJ investovala do objektu vlastní prostředky,
