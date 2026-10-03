@@ -16,4 +16,7 @@
 
 Podmínky dalšího užívání byly sděleny již 29.4.2026. 
 
-Shromáždění delegátů rozhodlo , že pokud nebu
+Shromáždění delegátů rozhodlo , že pokud nebude zaslaná faktura splatná v termínu, 
+
+
+Zklamal jste mě, protože 
