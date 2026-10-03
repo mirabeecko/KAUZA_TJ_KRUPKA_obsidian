@@ -192,7 +192,7 @@ Horní stanice tak fakticky tvoří součást provozního celku, který TJ dlouh
 
 Objekt horní stanice je fakticky pod kontrolou TJ Krupka a nemám žádnou informaci o tom, že by to někdy v minulosti bylo jinak.
 
-TJ má k objektu přístup, objekt zabezpečuje, užívá jej při provozu vleku a vykonává nad ním faktickou kontrolu. Tento stav není krátkodobý, ale navazuje na dlouholetý provoz areálu. V ROCE 2025 BYLA PROVEDENA DEFEKTOSKOPIE LYŽAŘSKÉHO VLEKU TLV 400 - kde je horní stanicí 
+TJ má k objektu přístup, objekt zabezpečuje, užívá jej při provozu vleku a vykonává nad ním faktickou kontrolu. Tento stav není krátkodobý, ale navazuje na dlouholetý provoz areálu. V ROCE 2025 BYLA PROVEDENA DEFEKTOSKOPIE LYŽAŘSKÉHO VLEKU TLV 400 - kde je horní stanicí tento objekt. Provedení této revizní zkoušky dokládá také funkčnost vleku, jelikož pro její provedení musí být vlek schopen provozu. 
 
 Podstatná je proto otázka, zda toto dlouhodobé faktické ovládání objektu zakládá držbu ve smyslu občanského zákoníku a jaký je přesný obsah této držby.
 
@@ -201,9 +201,7 @@ Je potřeba rozlišovat mezi:
 - vlastnickým právem města,
     
 - faktickou držbou objektu,
-    
 - případným právem TJ objekt užívat,
-    
 - případně jinými právy, která mohla vzniknout dlouhodobým výkonem.
     
 
