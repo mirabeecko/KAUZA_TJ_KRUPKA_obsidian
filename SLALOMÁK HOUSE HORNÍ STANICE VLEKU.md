@@ -224,11 +224,13 @@ Je proto potřeba zjistit zejména:
     
     
 
-existují dokumenty , kde spolek komunikuje s městem a žádá ěsto o užívání objektu TJ vědělo a po jak dlouhou dobu tento stav akceptovalo,    
+existují dokumenty , kde spolek komunikuje s městem a žádá ho například o finanční podporu, jelikož byly špatné sněhové podmínky apod. 
+
+to dokazuje, že Město Krupka o užívání objektu spolkem vědělo a po jak dlouhou dobu tento stav akceptovalo,    
 - zda 
 
 
-TJ investovala do objektu vlastní prostředky,
+- TJ investovala do objektu vlastní prostředky,
 
 
 
