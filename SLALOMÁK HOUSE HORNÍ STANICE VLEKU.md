@@ -222,15 +222,14 @@ Je proto potřeba zjistit zejména:
 - zda existují rozhodnutí města, smlouvy, zápisy, souhlasy nebo jiné dokumenty,
     
     
-    
-
-existují dokumenty , kde spolek komunikuje s městem a žádá ho například o finanční podporu, jelikož byly špatné sněhové podmínky apod. 
-
-to dokazuje, že Město Krupka o užívání objektu spolkem vědělo a po jak dlouhou dobu tento stav akceptovalo,    
-- zda 
 
 
 - TJ investovala do objektu vlastní prostředky,
+
+- Existují dokumenty , kde spolek komunikuje s městem a žádá ho například o finanční podporu, jelikož byly špatné sněhové podmínky apod. **To dokazuje**, že Město Krupka o užívání objektu spolkem vědělo a finančně spolek podporovalo.
+
+
+
 
 
 
