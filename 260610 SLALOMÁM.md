@@ -223,5 +223,31 @@ Stejný počet nových lůžek automaticky z posesorní žaloby neplyne. Ta vrac
 Náhrada škody má ale víc znaků než „čí to bylo“. Spolek musí pořád tvrdit a doložit, že ty konkrétní věci tam byly, že je zničil nebo odvezl majitel a jaká újma z toho vznikla. Domněnka neodpoví na to, jestli tam stálo šest postelí nebo dvacet, ani jakou měly cenu. To nejsou vlastnosti držby. To je rozsah škody a ten z domněnky neplyne, protože soud nemůže přiznat částku, kterou nikdo neuvedl.
 
 Proto chybějící faktury neškodí v tom, komu věci patřily. Škodí jen tehdy, když spolek vůbec neřekne, co zmizelo. Počet lůžek, typ skříní a lyžařské vybavení lze doložit svědky a fotkami. Cenu pak soud odhadne podle obvyklé ceny podobných věcí, a když přesný výpočet nejde, podle spravedlivého uvážení. Že majitel věci rozbil, mu v tom odhadu nemá pomoci.
+
+---
+
+Obdobná judikatura existuje a jde proti svépomoci vlastníka po delším klidném stavu. Přesný případ „spolek, stanice vleku, sekera, policista nic nezapsal“ v databázích není. Použijí se ale tyto linie.
+
+## Svépomoc po letech klidu není dovolena
+
+Nejvyšší soud v rozsudku ze dne 6. 9. 2007, sp. zn. 25 Cdo 365/2006, a stejně v usnesení ze dne 26. 11. 2009, sp. zn. 25 Cdo 815/2008, uzavřel, že svépomoc je jen na bezprostředně hrozící zásah. Na pokojný, třeba i protiprávní stav, který už nějakou dobu trvá, se použít nedá. Svévolné vyklizení vlastník neobhájí.
+
+Ústavní soud to pod novým občanským zákoníkem zopakoval. V nálezu ze dne 2. 11. 2016, sp. zn. I. ÚS 1957/16, a znovu ve věci IV. ÚS 204/24: svépomoc kryje bezprostředně hrozící zásah, ne stav, který vznikl dřív a trvá. Trvající spor se řeší žalobou, ne sekerou. Nejvyšší soud totéž použil i v trestní věci 4 Tdo 246/2020. Dvacetiletý klid a dopisy spolku jsou přesně ten pokojný stav, který tahle judikatura vylučuje.
+
+## Posesorní žaloba nezkoumá list vlastnictví
+
+Ústavní soud v nálezu ze dne 21. 5. 2019, sp. zn. IV. ÚS 4306/18, a ze dne 19. 4. 2022, sp. zn. IV. ÚS 3474/21, říká, že žaloba z rušené držby chrání poslední faktický stav, ne právní titul. Soud nezkoumá, zda byla držba řádná, poctivá nebo pravá. Žalobce prokazuje držbu a svémocné rušení. Vlastník se neubrání tím, že věc je jeho.
+
+Stejně nález ze dne 11. 5. 2022, sp. zn. I. ÚS 2463/21: nikdo nesmí bez právního důvodu zasahovat do cizí držby a rušitel má povinnost upustit od zásahů a uvést vše do předešlého stavu. Výměna zámku bez klíče už soudy berou jako vypuzení (např. krajské rozhodnutí 15 Co 228/2024). Sekera, palice a páčidlo jsou silnější zásah než zámek.
+
+## Škoda a chybějící faktury
+
+U zničené věci se náhrada počítá z obvyklé ceny v době poškození, nebo z účelných nákladů na obnovu funkce, nejsou-li nepřiměřené. Tak rozsudek Nejvyššího soudu ze dne 28. 4. 2020, sp. zn. 25 Cdo 2202/2019. Když věc už nejde opravit, bere se rozdíl ceny před zničením a po něm.
+
+Přesná částka nemusí být doložena fakturou. Je-li nárok důvodný co do základu, soud ho nesmí zamítnout jen proto, že výše nejde spočítat přesně. Určí ji úvahou podle § 136 občanského soudního řádu. Tak rozsudek ze dne 20. 3. 2012, sp. zn. 32 Cdo 4762/2010, a stejně 25 Cdo 1797/2026. To je odpověď na rozbité důkazy: spolek musí říct, co tam bylo, soud cenu odhadne. Majitel zničením věcí ten odhad nezablokuje.
+
+Domněnka držby se v těchto rozhodnutích neobjevuje jako náhrada za soupis věcí. Objevuje se jako pravidlo, že v posesorním řízení se vlastnictví nedokazuje a u movitých věcí, jejichž držba je prokázána, opak dokazuje ten, kdo ji popírá.
+
+
 # GROK shrnutí 
 
