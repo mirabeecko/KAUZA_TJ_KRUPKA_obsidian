@@ -194,9 +194,15 @@ Trest nebo pokuta stojí na tom, jestli spolek doloží, že šlo o jeho věci, 
 
 # OCHRANA DRŽBY 
 
-U ochrany držby spolek nedokazuje vlastnictví. Dokazuje, že objekt pokojně držel a že ho majitel vypudil. Elektřina na spolek, klíče, vybavení uvnitř, dvacetiletá správa a svědci na to stačí. Majitel nevyhraje listem vlastnictví. Může namítat jen to, že držba byla nepravá proti němu, nebo že ho spolek sám vypudil. Tady tedy nedokazuje spolek, že postele jsou jeho. Dokazuje, že tam byly a že je majitel rozbil nebo odvezl.
+U ochrany držby spolek nedokazuje vlastnictví. **Dokazuje, že objekt pokojně držel a že ho majitel vypudil.** 
+Elektřina na spolek, klíče, vybavení uvnitř, dvacetiletá správa a svědci na to stačí. 
 
-U věcí, které ještě existují, platí domněnka řádné a poctivé držby. Kdo tvrdí, že lyže a skříně spolku nejsou, musí tu domněnku vyvrátit. To je ten majitel. Odmítne-li je vydat, nestačí mu říct „byly moje“.
+Majitel nevyhraje listem vlastnictví. Může namítat jen to, že držba byla nepravá proti němu, nebo že ho spolek sám vypudil. 
+
+**Tady tedy nedokazuje spolek, že postele jsou jeho. Dokazuje, že tam byly a že je majitel rozbil nebo odvezl.**
+
+U věcí, které ještě existují, *platí domněnka řádné a poctivé držby.* 
+### Kdo tvrdí, že lyže a skříně spolku nejsou, musí tu domněnku vyvrátit. To je ten majitel. Odmítne-li je vydat, nestačí mu říct „byly moje“.
 
 U náhrady škody za už zničené věci je to obráceně a tady jsem to minulýkrát slil dohromady. Škodu uplatňuje spolek, takže musí tvrdit, co zmizelo a jakou to mělo cenu. Nemusí ale předložit faktury. Cenu určí soud podle obvyklé ceny podobných použitých věcí, a když přesná částka nejde zjistit, podle spravedlivého uvážení (§ 2955 občanského zákoníku, § 136 občanského soudního řádu). Svědci, fotky, inventura z hlavy, počet lůžek, které tam členové roky viděli, na to stačí. Že majitel věci rozmlátil a odvezl, jde k jeho tíži: zničil předmět, podle kterého se cena dala určit přesněji, a soud to při odhadu nemá vykládat ve prospěch toho, kdo důkaz zničil.
 
