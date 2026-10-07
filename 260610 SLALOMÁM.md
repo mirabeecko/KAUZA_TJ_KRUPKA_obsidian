@@ -214,6 +214,14 @@ Svědci, fotky, inventura z hlavy, počet lůžek, které tam členové roky vid
 
 Stejný počet nových lůžek automaticky z posesorní žaloby neplyne. Ta vrací držbu objektu. Za rozbité postele je peněžitá náhrada, případně vydání toho, co ještě existuje. Počet lůžek je ale právě to, co spolek může doložit svědky i bez dokladů, a z toho se odvíjí odhad škody. Majitel se nevykoupí tím, že faktury nejsou. Vyklízí se tím, že spolek neřekne, co v objektu bylo.
 
+---
 
+**Domněnka se u náhrady škody uplatní. Nekryje ale celý nárok, jen otázku, čí věci to byly.**
+
+§ 994 občanského zákoníku říká, že držba se pokládá za řádnou, poctivou a pravou, dokud se neprokáže opak. Kdo tedy prokáže, že věc v rozhodnou chvíli držel, nemusí navíc dokazovat nabývací smlouvu. Opak dokazuje ten, kdo tvrdí, že držitel vlastníkem nebyl. U postelí a lyží, o kterých se prokáže, že ležely v objektu drženém spolkem, je to majitel, kdo musí vyvrátit, že šly za spolkem.
+
+Náhrada škody má ale víc znaků než „čí to bylo“. Spolek musí pořád tvrdit a doložit, že ty konkrétní věci tam byly, že je zničil nebo odvezl majitel a jaká újma z toho vznikla. Domněnka neodpoví na to, jestli tam stálo šest postelí nebo dvacet, ani jakou měly cenu. To nejsou vlastnosti držby. To je rozsah škody a ten z domněnky neplyne, protože soud nemůže přiznat částku, kterou nikdo neuvedl.
+
+Proto chybějící faktury neškodí v tom, komu věci patřily. Škodí jen tehdy, když spolek vůbec neřekne, co zmizelo. Počet lůžek, typ skříní a lyžařské vybavení lze doložit svědky a fotkami. Cenu pak soud odhadne podle obvyklé ceny podobných věcí, a když přesný výpočet nejde, podle spravedlivého uvážení. Že majitel věci rozbil, mu v tom odhadu nemá pomoci.
 # GROK shrnutí 
 
