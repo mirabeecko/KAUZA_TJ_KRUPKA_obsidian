@@ -171,20 +171,23 @@ Vyklizení bez rozsudku a bez exekuce mu žádný titul nedává. I kdyby pozdě
 
 Tady rozhoduje úmysl, čí věci to byly a kolik dělá škoda. Hranice „nikoli nepatrné škody“ je 10 000 Kč.
 
-Poškození cizí věci (§ 228). Úmyslné zničení nebo znehodnocení cizích postelí, skříní a lyží. Od 10 000 Kč jde o trestný čin: odnětí svobody až na jeden rok, zákaz činnosti nebo propadnutí věci. Od 1 000 000 Kč se sazba zvedá na šest měsíců až tři roky, od 10 000 000 Kč na dva až šest let. Pod 10 000 Kč je to přestupek proti majetku, pokuta do 50 000 Kč, při opakování do 70 000 Kč.
+**Poškození cizí věci (§ 228)**. Úmyslné zničení nebo znehodnocení cizích postelí, skříní a lyží. Od 10 000 Kč jde o trestný čin: odnětí svobody až na jeden rok, zákaz činnosti nebo propadnutí věci. Od 1 000 000 Kč se sazba zvedá na šest měsíců až tři roky, od 10 000 000 Kč na dva až šest let. Pod 10 000 Kč je to přestupek proti majetku, pokuta do 50 000 Kč, při opakování do 70 000 Kč.
 
-Krádež (§ 205). Nastupuje, pokud si lyžařské vybavení nebo jiné věci přisvojil a odmítl je vydat, ne pokud je jen zničil. Překonání zabezpečení sekerou, palicí a páčidlem je typické vloupání. U vloupání je trestný čin i při škodě pod 10 000 Kč: až dva roky, zákaz činnosti nebo propadnutí věci. Při větší škodě od 100 000 Kč jeden rok až pět let, při značné škodě od 1 000 000 Kč dva až osm let.
+**Krádež (§ 205)**. Nastupuje, pokud si lyžařské vybavení nebo jiné věci přisvojil a odmítl je vydat, ne pokud je jen zničil. Překonání zabezpečení sekerou, palicí a páčidlem je typické vloupání. U vloupání je trestný čin i při škodě pod 10 000 Kč: až dva roky, zákaz činnosti nebo propadnutí věci. Při větší škodě od 100 000 Kč jeden rok až pět let, při značné škodě od 1 000 000 Kč dva až osm let.
 
 Porušování domovní svobody (§ 178) jen tehdy, pokud objekt soud uzná za obydlí. Stanice vleku jím obvykle není. Postele samy o sobě nestačí.
 
 Neoprávněný zásah do práva k nebytovému prostoru (§ 208) je u vlastníka budovy slabší konstrukce. Drží-li list vlastnictví, těžko mu přičítat obsazení cizího prostoru. Praktická trestní linie jsou cizí movité věci a vloupání k nim, ne budova.
 
-V praxi u člověka bez záznamu a při škodě v desítkách tisíc spíš hrozí podmínka, peněžitý trest nebo zákaz činnosti než nepodmíněný trest. To ale není důvod věc neoznámit. Odklizení věcí do odpadu navíc zhoršuje jeho pozici, ne policii.
+*V praxi u člověka bez záznamu a při škodě v desítkách tisíc spíš hrozí podmínka, peněžitý trest nebo zákaz činnosti než nepodmíněný trest. To ale není důvod věc neoznámit. Odklizení věcí do odpadu navíc zhoršuje jeho pozici, ne policii.*
 
 ## Co mu nehrozí samo od sebe
 
 Samotné vlastnictví budovy ho nevyviní. Nečinnost policisty na místě mu také nedává souhlas. Policista, který nikoho neztotožnil a nic nezapsal, majiteli žádné oprávnění neudělil.
 
 Jistota je dnes občanskoprávní: obnova držby, vydání věcí a náhrada škody. Trest nebo pokuta stojí na tom, jestli spolek doloží, že šlo o jeho věci, jakou měly cenu a že je majitel zničil nebo si je nechal. Proto má smysl soupis, fotky, faktury a číslo jednací oznámení, ne čekání, až se policie ozve sama.
+
+
+
 # GROK shrnutí 
 
