@@ -113,10 +113,10 @@ Hned písemně, ať se záznamy nepřepíší:
 
 Policie nemá právo nechat sporné věci odvézt do odpadu jen proto, že se strany přou o budovu. Jejím úkolem bylo věci popsat, osoby ztotožnit a odvoz zastavit do vyjasnění. To, že to neudělala, majitele neomlouvá a spolku zakládá samostatnou stížnost.
 
-> [!NOTE]
+> [!danger]+ NEČINNOST 100 % 
 > **nikoho neztotožnil. řekl mi at přijdu podat výpověd na stanici. nic neevidoval .**
 
-To je horší než samotné přihlížení. Policista na místě neudělal žádný úkon, který se z probíhajícího odvozu dal ještě zachránit, a odkázal vás na stanici až potom.
+--> To je horší než samotné přihlížení. Policista na místě neudělal žádný úkon, který se z probíhajícího odvozu dal ještě zachránit, a odkázal vás na stanici až potom.
 
 ## Co tím porušil
 
@@ -150,5 +150,8 @@ Současně písemně:
 - pokud odmítnou i na stanici cokoliv sepsat, totéž oznámení na státním zastupitelství a podnět GIBS.
 
 Civilní žaloba na uchování držby běží pořád v těch šesti týdnech. Policista, který nic nezapsal, vám tu lhůtu nestaví.
+
+
+
 # GROK shrnutí 
 
