@@ -206,12 +206,14 @@ U věcí, které ještě existují, *platí domněnka řádné a poctivé držby
 
 U náhrady škody za už zničené věci je to obráceně a tady jsem to MINULE slil dohromady. 
 
-**Škodu uplatňuje spolek**, takže musí tvrdit, co zmizelo a jakou to mělo cenu. Nemusí ale předložit faktury. 
+**Škodu uplatňuje spolek**, takže musí tvrdit, co zmizelo a jakou to mělo cenu. **Nemusí** ale **předložit faktury**. 
 
 Cenu určí soud podle obvyklé ceny podobných použitých věcí, a když přesná částka nejde zjistit, podle spravedlivého uvážení (§ 2955 občanského zákoníku, § 136 občanského soudního řádu). 
 
 Svědci, fotky, inventura z hlavy, počet lůžek, které tam členové roky viděli, na to stačí. Že majitel věci rozmlátil a odvezl, jde k jeho tíži: zničil předmět, podle kterého se cena dala určit přesněji, a soud to při odhadu nemá vykládat ve prospěch toho, kdo důkaz zničil.
 
 Stejný počet nových lůžek automaticky z posesorní žaloby neplyne. Ta vrací držbu objektu. Za rozbité postele je peněžitá náhrada, případně vydání toho, co ještě existuje. Počet lůžek je ale právě to, co spolek může doložit svědky i bez dokladů, a z toho se odvíjí odhad škody. Majitel se nevykoupí tím, že faktury nejsou. Vyklízí se tím, že spolek neřekne, co v objektu bylo.
+
+
 # GROK shrnutí 
 
