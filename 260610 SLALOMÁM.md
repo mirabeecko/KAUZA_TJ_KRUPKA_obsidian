@@ -113,7 +113,42 @@ Hned písemně, ať se záznamy nepřepíší:
 
 Policie nemá právo nechat sporné věci odvézt do odpadu jen proto, že se strany přou o budovu. Jejím úkolem bylo věci popsat, osoby ztotožnit a odvoz zastavit do vyjasnění. To, že to neudělala, majitele neomlouvá a spolku zakládá samostatnou stížnost.
 
+> [!NOTE]
+> **nikoho neztotožnil. řekl mi at přijdu podat výpověd na stanici. nic neevidoval .**
 
+To je horší než samotné přihlížení. Policista na místě neudělal žádný úkon, který se z probíhajícího odvozu dal ještě zachránit, a odkázal vás na stanici až potom.
 
+## Co tím porušil
+
+Podle § 10 zákona o Policii ČR měl ve službě provést úkon nebo jiné opatření, jakmile šlo o porušení, které patří do úkolů policie. Odvoz věcí po násilném vniknutí takovým případem je. Místo toho:
+
+- nikoho neztotožnil, takže není úředně zachyceno, kdo nakládal, kdo řídil a na čí pokyn se věci odvážely,
+- nic neevidoval, tedy není úřední záznam, číslo události ani soupis odvezeného,
+- nechal věci odjet, takže se ztratila možnost je na místě popsat, vyfotit a zajistit, než skončí ve sběru nebo v cizím skladu,
+- výpověď odsunul na stanici, což nezastaví odvoz a nenahradí zásah v čase, kdy věci ještě byly na očích.
+
+Oznámení skutku, který může být trestným činem, se sepisuje. Policista nemá volbu „nic nezapíšu a přijďte někdy“. I kdyby věc nakonec vyhodnotil jako přestupek nebo civil, záznam o tom, co viděl a co mu bylo řečeno, vzniknout měl. Odklad na stanici dává smysl u výslechu, ne u odjíždějícího auta.
+
+Vaše pozdější výpověď jeho nečinnost nezhojí. Je to další důkaz, že na místě odmítl konat.
+
+## Co z toho plyne
+
+Majiteli to vlastnictví k věcem nedává a odvoz nelegalizuje. Policista mu svým mlčením žádný titul neudělil.
+
+Důkazně je to ale díra. Bez ztotožnění a soupisu bude majitel snáz tvrdit, že odvezl své věci, nebo že už neví, kde jsou. Proto je teď rozhodující vše, co máte vy: fotky, video, SPZ, čas, jména svědků, popis policisty, služební číslo, číslo vozu, co přesně řekl.
+
+Kázeňsky je popisovaný postup porušení povinnosti zakročit a povinnosti věc zaznamenat. Trestně to stále není automatické. Zneužití pravomoci chce úmysl někomu způsobit škodu nebo opatřit prospěch. Samotné „přijďte na stanici, já nic nepíšu“ na to nestačí, pokud se neukáže, že odvoz vědomě kryl. Na kázeňské prošetření a stížnost to stačí.
+
+## Co udělat hned
+
+Na stanici jděte, ale nenechte se odbýt ústně. Žádejte sepsání úředního záznamu o podaném vysvětlení, nebo rovnou trestní oznámení, a kopii s číslem jednacím. Do oznámení uveďte i policistu: čas, místo, že viděl nakládání, nikoho neztotožnil, nic neevidoval a odkázal vás na pozdější výpověď.
+
+Současně písemně:
+
+- žádost o uchování kamer v okolí objektu, bodycam a záznamu operačního střediska, než se přemažou,
+- upozornění na nedostatky v činnosti policisty u vedoucího toho útvaru, se žádostí o vyrozumění do 30 dnů,
+- pokud odmítnou i na stanici cokoliv sepsat, totéž oznámení na státním zastupitelství a podnět GIBS.
+
+Civilní žaloba na uchování držby běží pořád v těch šesti týdnech. Policista, který nic nezapsal, vám tu lhůtu nestaví.
 # GROK shrnutí 
 
