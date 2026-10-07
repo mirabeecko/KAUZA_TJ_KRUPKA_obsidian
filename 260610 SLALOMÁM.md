@@ -251,3 +251,13 @@ Domněnka držby se v těchto rozhodnutích neobjevuje jako náhrada za soupis v
 
 # GROK shrnutí 
 
+**Jádro, které policie nemá kam uhnout:**
+
+- § 1003 občanského zákoníku zakazuje svémocně rušit držbu komukoli, tedy i vlastníkovi. Posesorní ochrana kryje poslední faktický stav, ne list vlastnictví (IV. ÚS 4306/18, IV. ÚS 3474/21, I. ÚS 2463/21).
+- § 14 nedovoluje sekeru po dvaceti letech klidu. Svépomoc není na pokojný stav, který už trvá (25 Cdo 365/2006, 25 Cdo 815/2008, I. ÚS 1957/16, 4 Tdo 246/2020).
+- § 228 je poškození cizí věci. Od 10 000 Kč trestný čin, pod tuto hranici přestupek. Ani přestupek se neodkládá větou, že jde o barák.
+- § 205 odst. 1 písm. b) je krádež vloupáním, jestliže si věci přisvojil a zabezpečení překonal nástrojem (§ 121). U vloupání je trestný čin i pod 10 000 Kč.
+- § 158 odst. 2 a 3 trestního řádu ukládá oznámení přijmout a sepsat záznam. „Přijďte na stanici“ při odjíždějícím autě tuto povinnost neplní.
+- § 10 zákona o Policii ČR ukládá zakročit. Neztotožnění, neevidence a přihlížení odvozu je porušení služební povinnosti, ne právní názor.
+
+Když to znovu odmítnou jako civil, žádost o přezkoumání jde státnímu zástupci podle § 157a trestního řádu, stížnost vedoucímu útvaru a při krytí odvozu oznámení Generální inspekci bezpečnostních sborů. Před odevzdáním doplňte datum, místo, jméno majitele, policistu a aspoň hrubý soupis věcí. Faktury k přijetí oznámení nepotřebujete.
