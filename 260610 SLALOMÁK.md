@@ -270,10 +270,15 @@ vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci 
  
  Posesorní ochrana kryje poslední faktický stav, ne list vlastnictví (IV. ÚS 4306/18, IV. ÚS 3474/21, I. ÚS 2463/21).
 
-JEDNÁNÍ MĚSTA
+JEDNÁNÍ MĚSTA : NEZÁKONNÉ. 
 
-Město vzalo koncové bezpečnostní branky lyžařského vleku.
-Lyžařské vybavení. 
+
+
+Město vzalo:  
+- Lyžařské vybavení. 
+- Koncové bezpečnostní branky lyžařského vleku.
+
+
 
 Jan Bokoč, Adolf Vítů, Jan Kuzma
 .. 
