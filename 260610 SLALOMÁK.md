@@ -286,7 +286,11 @@ Můžete si myslet o areálu cokoliv.
 
 Je možné obnovit provoz areálu, když město jedná takto ? 
 
-6.10.202
+6.10.2026 se porušoval zákon na Komárce.
+
+
+
+
 
 
 
