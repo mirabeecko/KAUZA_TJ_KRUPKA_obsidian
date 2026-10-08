@@ -270,3 +270,7 @@ vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci 
 
 Jan Bokoč, Adolf Vítů, Jan Kuzma
 .. 
+
+
+
+jídelní stůl + 6 míst 
