@@ -272,15 +272,22 @@ Jan Bokoč, Adolf Vítů, Jan Kuzma
 .. 
 
 
-
+**KUCHYŇ**
 - kuchyňská linka
 - plynová kamna
 - jídelní stůl + 6 míst k sezení
 - koupelnové umyvadlo + skříňka
 
+**KOUPELNA**
 - 2x funkční WC
 - 1x sprcha
 
-
+**POKOJ 1**
 - 4 lůžka (2x palanda)
-- 
+	- konstrukce, rošt, matrace
+
+
+
+**POKOJ 2**
+
+
