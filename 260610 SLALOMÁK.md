@@ -297,8 +297,10 @@ Jan Bokoč, Adolf Vítů, Jan Kuzma
 *OBĚKT BYL PŘIZPŮSOBEN K BYDLENÍ. KUCHYN, KOUPELNA, 3x POKOJ , 1x technická místnost*
 
 
+DOPLNIT, ŽE POLICISTA ZAKÁZAL PŘEDSEDOVI SPOLKU ZAJIŠTĚNÍ 
 
 
 
+---
 
--
+
