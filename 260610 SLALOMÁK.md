@@ -266,8 +266,14 @@ Když to znovu odmítnou jako civil, žádost o přezkoumání jde státnímu z�
 ---
 
 vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci věcí, které v ní patří spolku.
+ **§ 1003** občanského zákoníku zakazuje svémocně rušit držbu komukoli, tedy i vlastníkovi. 
+ 
+ Posesorní ochrana kryje poslední faktický stav, ne list vlastnictví (IV. ÚS 4306/18, IV. ÚS 3474/21, I. ÚS 2463/21).
 
-Město vzalo koncová bezpečnostní branka lyžařského vleku
+JEDNÁNÍ MĚSTA
+
+Město vzalo koncové bezpečnostní branky lyžařského vleku.
+Lyžařské vybavení. 
 
 Jan Bokoč, Adolf Vítů, Jan Kuzma
 .. 
