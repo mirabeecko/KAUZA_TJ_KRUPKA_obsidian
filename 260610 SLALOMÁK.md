@@ -263,8 +263,6 @@ Domněnka držby se v těchto rozhodnutích neobjevuje jako náhrada za soupis v
 Když to znovu odmítnou jako civil, žádost o přezkoumání jde státnímu zástupci podle § 157a trestního řádu, stížnost vedoucímu útvaru a při krytí odvozu oznámení Generální inspekci bezpečnostních sborů. Před odevzdáním doplňte datum, místo, jméno majitele, policistu a aspoň hrubý soupis věcí. Faktury k přijetí oznámení nepotřebujete.
 
 
-
-
 ---
 
 vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci věcí, které v ní patří spolku.
