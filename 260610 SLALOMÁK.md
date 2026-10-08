@@ -291,3 +291,14 @@ Jan Bokoč, Adolf Vítů, Jan Kuzma
 **POKOJ 2**
 
 
+---
+# ROZŠÍŘIT TO !
+
+*OBĚKT BYL PŘIZPŮSOBEN K BYDLENÍ. KUCHYN, KOUPELNA, 3x POKOJ , 1x technická místnost*
+
+
+
+
+
+
+-
