@@ -273,4 +273,9 @@ Jan Bokoč, Adolf Vítů, Jan Kuzma
 
 
 
-jídelní stůl + 6 míst 
+- kuchyňská linka
+- plynová kamna
+- jídelní stůl + 6 míst k sezení
+- 2x funkční WC
+- 1x sprcha
+- 
