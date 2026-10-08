@@ -265,7 +265,6 @@ Když to znovu odmítnou jako civil, žádost o přezkoumání jde státnímu z�
 
 
 
-
 ---
 
 vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci věcí, které v ní patří spolku.
