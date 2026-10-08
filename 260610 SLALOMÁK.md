@@ -288,7 +288,7 @@ Je možné obnovit provoz areálu, když město jedná takto ?
 
 6.10.2026 se porušoval zákon na Komárce.
 
-
+Proč myslíte, že to neudělají zítra třeba Vám ? 
 
 
 
