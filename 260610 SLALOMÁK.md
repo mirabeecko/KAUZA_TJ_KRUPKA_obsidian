@@ -284,6 +284,10 @@ Město vzalo:
 
 Můžete si myslet o areálu cokoliv. 
 
+Je možné obnovit provoz areálu, když město jedná takto ? 
+
+6.10.202
+
 
 
 Jan Bokoč, Adolf Vítů, Jan Kuzma
