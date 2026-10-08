@@ -272,11 +272,17 @@ vlastnictví budovy neopravňuje vlastníka automaticky k odvozu nebo likvidaci 
 
 JEDNÁNÍ MĚSTA : NEZÁKONNÉ. 
 
+Vlek je majetek spolku. 
+
 
 
 Město vzalo:  
 - Lyžařské vybavení. 
 - Koncové bezpečnostní branky lyžařského vleku.
+- Přístup k vleku
+
+
+Můžete si myslet o areálu cokoliv. 
 
 
 
