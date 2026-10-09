@@ -1,4 +1,5 @@
 
+[[zaškrtávací podání slalomák]]
 
 
 # zadání GROK
