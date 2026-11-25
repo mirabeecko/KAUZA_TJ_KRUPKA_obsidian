@@ -188,6 +188,13 @@
       "paths": [
         "Excalidraw/průběh KOMÁRKA.excalidraw.md"
       ]
+    },
+    "2026-11-25": {
+      "addedWords": 0,
+      "edits": 1,
+      "paths": [
+        "⤴️ 🏠 ROZCESTNÍK.md"
+      ]
     }
   },
   "linkSnapshots": {
@@ -229,7 +236,6 @@
     "město krupka.md": 14,
     "ŽÁDOSTI O INFORMACE.md": 344,
     "UMOŽNĚNÍ UŽÍVÁNÍ VYBAVENÍ SPOLKU CIZÍMI OSOBAMI.md": 130,
-    "ZDROJ_PRAVDY.md": 1638,
     "TO Kočiš.md": 72,
     "T-MOBILE - Vysílač.md": 157,
     "START_HERE.md": 769,
@@ -547,7 +553,8 @@
     "Excalidraw/průběh KOMÁRKA.excalidraw.md": 203,
     "Soudy/Excalidraw/SOUDY - OPATROVNÍK .excalidraw.md": 913,
     "Soudy/Vítejte.md": 25,
-    "09_Vystupy/VYS-2026-005_Ochrana_spolku_pred_narusovanim.md": 1607
+    "09_Vystupy/VYS-2026-005_Ochrana_spolku_pred_narusovanim.md": 1607,
+    "⭐️ ZDROJ_PRAVDY.md": 1638
   },
   "trackingStartedAt": 1787156646183,
   "linkTrackingStartedAt": 1787156646185
